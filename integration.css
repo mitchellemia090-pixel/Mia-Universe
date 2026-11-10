@@ -1,0 +1,8 @@
+/* Keep the original homepage; make the existing inner-page menu usable on phones. */
+@media (max-width: 700px) {
+  body:not([data-page="home"]) .header {flex-wrap:wrap;align-items:center;gap:12px;padding-block:16px}
+  body:not([data-page="home"]) .header #menu {display:block;min-height:44px;min-width:44px}
+  body:not([data-page="home"]) .header #nav {display:none;width:100%;gap:4px}
+  body:not([data-page="home"]) .header #nav.open {display:flex;flex-direction:column}
+  body:not([data-page="home"]) .header #nav a {display:flex;align-items:center;min-height:44px}
+}

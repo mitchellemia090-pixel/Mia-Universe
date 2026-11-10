@@ -1,0 +1,18 @@
+body.work-page{margin:0;background:var(--brand-green);color:var(--brand-brown);font:18px/1.85 Arial,"Microsoft YaHei",sans-serif}
+.work-page *{box-sizing:border-box}.work-shell{width:min(100% - 48px,1440px);margin:0 auto;padding:30px 0 70px}
+.work-nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #3B1C1540;padding-bottom:20px}
+.work-nav a,.work-originals a{color:inherit;text-underline-offset:4px}.work-header{padding:48px 0 36px}.work-header h1{font:clamp(34px,5vw,68px)/1.2 Georgia,"Songti SC",serif;max-width:22ch;margin:0 0 24px;overflow-wrap:anywhere}
+.work-kind{font-size:14px;letter-spacing:.05em}.work-contribution{font-size:16px;max-width:80ch}
+.work-body{background:var(--warm-white);padding:clamp(24px,4vw,64px);overflow-wrap:anywhere;min-width:0}
+.work-body>p,.work-body>h2,.work-body>h3,.work-body>ul,.work-body>ol,.work-body>blockquote{max-width:85ch;margin-inline:auto}
+.work-body p{margin-block:0 1.3em}.work-body h2{font-size:clamp(26px,3vw,38px);line-height:1.4;margin-top:2.2em}.work-body h3{font-size:23px;line-height:1.5;margin-top:1.8em}
+.work-body figure{margin:30px auto;max-width:1150px}.work-body img,.work-body video{display:block;max-width:100%;height:auto;margin:auto}
+.work-body figcaption,.figure-reading{font-size:16px;line-height:1.8}.figure-reading{padding:22px;background:#BDC69840;border-left:3px solid var(--brand-red);margin-block:20px}
+.work-body table{border-collapse:collapse;width:100%;font-size:16px;line-height:1.7}.work-body :is(td,th){padding:12px;border:1px solid #3B1C1540;text-align:left;vertical-align:top;min-width:110px}.work-body td p{margin:0}
+.work-body .source-table,.work-body .responsive-table{overflow-x:auto;max-width:100%}
+.work-originals{padding-top:36px;font-size:16px;display:flex;gap:20px;flex-wrap:wrap}.work-originals h2{flex-basis:100%;font-size:26px;margin:0}
+.work-body details>summary{cursor:pointer;min-height:44px;padding-block:8px;font-size:16px}.work-error{padding:40px;font-size:18px}
+.work-toc{display:flex;gap:12px 24px;flex-wrap:wrap;padding-bottom:24px;font-size:15px}.work-toc a{color:inherit}
+.work-body video::cue{color:var(--warm-white);background:rgba(59,28,21,.96);font:18px/1.5 Arial,sans-serif}.work-body section{max-width:100%;margin-bottom:32px}.work-body section>p{max-width:85ch;margin-inline:auto}
+.full-manuscript{padding-block:48px;max-width:1440px}.full-manuscript-header{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-bottom:24px}.full-manuscript .work-body{font:18px/1.85 Arial,"Microsoft YaHei",sans-serif}.full-manuscript .work-body :is(p,li){font-size:18px;line-height:1.85}.full-manuscript a{color:inherit}.manuscript-toc{padding:18px;background:var(--brand-green);border:1px solid var(--brand-brown);margin-bottom:24px}.manuscript-toc summary{cursor:pointer;min-height:44px}.manuscript-toc nav{display:grid;gap:12px;padding:16px 0}.full-manuscript [id^=full-]{scroll-margin-top:32px}
+@media(max-width:700px){body.work-page{font-size:17px}.work-shell{width:calc(100% - 32px);padding-top:18px}.work-header{padding-top:30px}.work-body{padding:24px 18px}.work-body :is(p,li){line-height:1.85}.work-header h1{max-width:none}.work-page .mia-project-language{justify-content:center}}

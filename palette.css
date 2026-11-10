@@ -1,0 +1,11 @@
+/* Shared interface palette. Photographs and data scales are not recoloured. */
+:root{--brand-blue:#3D8CDB;--brand-red:#A2010D;--brand-green:#BDC698;--brand-brown:#3B1C15;--warm-white:#FBF7EE}
+.mia-language{display:flex;align-items:center;justify-content:center;gap:8px;padding:8px;flex-wrap:wrap}
+.mia-menu>.mia-language{grid-column:1/-1}
+.mia-language button{min-height:44px;padding:8px 14px;border:1px solid var(--brand-brown);border-radius:24px;background:var(--warm-white);color:var(--brand-brown);font:inherit;cursor:pointer}
+.mia-language button[aria-pressed=true]{background:var(--brand-brown);color:var(--warm-white)}
+.mia-language button:focus-visible{outline:3px solid var(--brand-red);outline-offset:3px}
+.home-language{position:absolute;right:16px;top:12px;z-index:40}
+@media(max-width:600px){.home-language{top:64px}}
+.ab-lang{display:none!important}
+html[lang=zh-CN] h1{letter-spacing:0!important}html[lang=zh-CN] .sw-heading,html[lang=zh-CN] .ar-heading{overflow-wrap:anywhere}

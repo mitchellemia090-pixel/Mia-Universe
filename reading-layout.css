@@ -1,0 +1,59 @@
+/* Detail layout only: readable prose; charts retain their own encodings and interactions. */
+.reading-return{padding:16px 5%;background:var(--brand-green);border-bottom:1px solid #3b1c1540}
+.reading-return a{display:inline-flex;align-items:center;min-height:44px;font:600 18px/1.5 Arial,sans-serif;color:var(--brand-brown);text-underline-offset:5px}
+body :is(.wrap,.container){max-width:1700px}
+body :is(.reading p,.chapter p,.article-body p,.prose p,.section-copy,.chart-caption,.figure-caption,.method-copy){font-size:clamp(17px,1.3vw,21px);line-height:1.85}
+body :is(.masthead a,.mast a,.nav a,.back,.back-link){font-size:16px;min-height:44px}
+body :is(.chart-note,.chart-description,figcaption){font-size:16px;line-height:1.7}
+.wrap :is(p,li),.article-layout :is(p,li){font-size:clamp(17px,1.3vw,21px);line-height:1.85}
+.wrap>p,.chapter>p,.article-layout>p{max-width:78ch}
+body :is(.legend,.legend-item,.stat-label,.metric-label,.controls,.toolbar,.source-note){font-size:16px;line-height:1.65}
+body :is(.scope-caption,.section-note,.flower-note,.chapter-intro){font-size:17px;line-height:1.8}
+@media(max-width:700px){.reading-return{padding:10px 20px}.reading-return a{font-size:17px}}
+
+/* Shared type hierarchy for every native detail page and complete reading edition. */
+body{--reading-prose:22px;--reading-leading:1.75}
+body :is(main,article,.wrap,.article-layout,.work-body) p:not(.eyebrow,.kicker,.meta,.source-note,.section-note,.scope-caption,.flower-note,.small):not(.pullquote p,.hero-quote p,.heroquote p,.quote p,.display-quote p){font-size:var(--reading-prose);line-height:var(--reading-leading)}
+body .work-body :is(p,li),body .full-manuscript .work-body :is(p,li){font-size:var(--reading-prose);line-height:var(--reading-leading)}
+body :is(.eyebrow,.kicker,.meta,.source-note,.section-note,.scope-caption,.flower-note,.small,.chapter-label,.section-label){font-size:15px;line-height:1.65}
+body :is(figcaption,.hero-img figcaption,.figure-caption,.chart-caption,.figure-reading){font-size:15px;line-height:1.7}
+body :is(nav a,.work-toc a,.manuscript-toc a,.manuscript-toc summary,.sidebar a,.sidebar .eyebrow){font-size:16px;line-height:1.65}
+body :is(nav a,nav button,.actions a,.actions button,.work-originals a){min-height:44px}
+body :is(.work-toc,.manuscript-toc nav){gap:12px 24px}
+body .work-body h2{font-size:clamp(28px,2.3vw,40px);line-height:1.3}
+body .work-body h3{font-size:clamp(24px,1.8vw,30px);line-height:1.4}
+body .work-body :is(td,th),body .work-body :is(td,th) p,body .work-body .references p{font-size:16px;line-height:1.7}
+body :is(.footer,footer.wrap),body :is(.footer,footer.wrap) :is(p,a,span){font-size:15px;line-height:1.7}
+body .reading-aux-type{font-size:15px!important;line-height:1.6!important}
+body .reading-control-type{font-size:16px!important;line-height:1.6!important;min-height:44px}
+body small{font-size:14px;line-height:1.65}
+body :is(input,select,textarea){font-size:16px}
+body :is(select,input[type=text],input[type=search],input[type=number],textarea){min-height:44px}
+body :is(.cloud-heading h4 span,.topic-name span,.growth-ticks span,.hero-link span,.period-controls>span){font-size:15px!important;line-height:1.6}
+body :is(.footer,footer.wrap) a{display:inline-flex;align-items:center;min-height:44px;padding-block:6px;font-size:16px}
+.reading-diagram-scroll{max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-inline:contain}
+/* Reported features: a legible directory, a measured text column, and wider photographs. */
+body:is(.page-woman,.page-piaopiao,.page-trap) .article-layout{width:90%;max-width:1760px;margin-inline:auto;padding:0;grid-template-columns:clamp(220px,17vw,300px) minmax(0,1fr);gap:clamp(36px,4vw,76px)}
+body:is(.page-woman,.page-piaopiao,.page-trap) .sidebar{font:16px/1.65 Arial,sans-serif;padding-top:40px}
+body:is(.page-woman,.page-piaopiao,.page-trap) .sidebar a{font-size:16px;display:block;min-height:44px;padding:10px 0}
+body:is(.page-woman,.page-piaopiao,.page-trap) .sidebar .eyebrow{font-size:16px;font-weight:600;letter-spacing:.06em}
+body:is(.page-woman,.page-piaopiao,.page-trap) .article-layout article :is(p,h2,h3,ul,ol,.pullquote){max-width:56ch;margin-inline:0}
+body.page-woman .article-layout article :is(p,h2,h3,ul,ol,.pullquote){width:100%;max-width:1180px}
+body:is(.page-woman,.page-piaopiao,.page-trap) .article-layout article figure{width:100%;max-width:1180px;margin-inline:0}
+body:is(.page-woman,.page-piaopiao,.page-trap) .article-layout article figure img{width:100%;height:auto}
+@media(max-width:1000px){
+ body{--reading-prose:20px}
+ body:is(.page-woman,.page-piaopiao,.page-trap) .article-layout{grid-template-columns:200px minmax(0,1fr);gap:30px;width:92%}
+}
+@media(max-width:700px){
+ .reading-diagram-scroll svg.diagram{width:1050px;max-width:none;height:auto}
+ body{--reading-prose:18px;--reading-leading:1.75}
+ body :is(nav a,.sidebar a,.work-toc a,.manuscript-toc a,.manuscript-toc summary){font-size:16px}
+ body :is(figcaption,.hero-img figcaption,.figure-reading,.source-note){font-size:15px}
+ body:is(.page-woman,.page-piaopiao,.page-trap) .article-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:24px;width:calc(100% - 40px);padding:0}
+ body:is(.page-woman,.page-piaopiao,.page-trap) .sidebar{display:block;position:static;padding:22px 0;border-block:1px solid #3b1c1540}
+ body:is(.page-woman,.page-piaopiao,.page-trap) .sidebar .side-inner{position:static;display:block}
+ body:is(.page-woman,.page-piaopiao,.page-trap) .sidebar a{padding-block:8px;min-height:44px}
+ body:is(.page-woman,.page-piaopiao,.page-trap) .article-layout article :is(p,h2,h3){max-width:100%}
+ body .work-body :is(td,th),body .work-body :is(td,th) p{font-size:15px}
+}

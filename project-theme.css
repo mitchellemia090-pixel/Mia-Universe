@@ -1,0 +1,17 @@
+/* Colour treatment for portfolio detail pages; chart marks retain their data encodings. */
+body{background:var(--brand-green)!important;color:var(--brand-brown)}
+:root{--bg:var(--brand-green);--cream:var(--brand-green);--paper:var(--warm-white);--card:var(--warm-white);--ink:var(--brand-brown);--muted:#50362A;--red:var(--brand-red);--blue:var(--brand-blue);--green:var(--brand-green)}
+body>.nav,.masthead,.mast{background:var(--brand-green)!important;color:var(--brand-brown)!important}
+main>section,.article-layout,body>header.hero{background:transparent}
+section.conclusion,section.evaluation,section.everyday{background:var(--brand-brown)!important;color:var(--warm-white)!important}
+section.conclusion h2,section.evaluation h2,section.everyday h2{color:inherit}
+section.conclusion>p,section.evaluation>p,section.everyday>p{color:var(--warm-white)}
+section.conclusion article,section.evaluation article,section.everyday article{color:var(--brand-brown)}
+.reading,.read-original,.original,.notes,.methods{background:var(--warm-white)!important;color:var(--brand-brown)}
+.chart,.chart-card,.plot-card,.table-wrap,.data-table,.cloud-card,.readcard,.methodbox,.methodcard{background:var(--warm-white)}
+.chapter-num,.section-num{color:var(--brand-red)}
+.mia-project-language{display:flex;justify-content:flex-end;padding:8px 4%;background:var(--brand-green)}
+[data-mia-original]{margin:40px auto;padding:32px;max-width:1100px;background:var(--warm-white);color:var(--brand-brown)}
+.cn-quote,.cn-title{display:none}html[lang=zh-CN] .cn-quote,html[lang=zh-CN] .cn-title{display:revert}
+html[lang=en] #character-name .cn{display:none}
+@media(max-width:700px){.hero h1{white-space:normal!important}.masthead{height:auto;min-height:70px;flex-wrap:wrap;padding:12px 4%;gap:12px}.masthead nav{gap:14px;flex-wrap:wrap}.wrap{padding-inline:20px}.mia-language{font-size:14px}.hero-grid{min-width:0}.hero-copy{min-width:0}.hero-art{max-width:100%;overflow:hidden}table{max-width:100%}.table-wrap{overflow-x:auto}}

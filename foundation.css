@@ -1,0 +1,143 @@
+/* ==========================================================================
+   foundation.css  —  load LAST (after integration.css)
+   A. layout fix   B. tokens   C. base   D. shared chrome   E. components
+   F. About stage scaling (optional)
+   ========================================================================== */
+
+
+/* ---------- A. LAYOUT FIX (the "must zoom in to fill the screen" bug) ------
+   CONFIRMED cause, review.css:   main{max-width:1260px;width:90%;margin:auto}
+   Only Home overrides it (universe.css: body[data-page=home] main{width:100%;
+   max-width:none;padding:0}). On every other page the whole route is capped at
+   1260px, so on a 1440/1920/2560px screen the full-bleed About spread sits in a
+   narrow column with cream margins. Browser zoom lowers the CSS viewport width
+   until 90% of it is <1260px, which is why zooming "fixes" it.
+   #main (id) outranks the element selector in review.css.                    */
+body{margin:0;min-width:320px;overflow-x:clip}
+#main{width:100%;max-width:none;margin-inline:0;padding-inline:0}
+
+
+/* ---------- B. TOKENS ------------------------------------------------------
+   One blue. One light ground. Cocoa is both the text colour and the dark band. */
+:root{
+  --mia-sky:#3D8CDB;        /* the only blue */
+  --mia-paper:var(--warm-white);      /* light ground: change this one line to retint the site */
+  --mia-ink:#3B1C15;        /* cocoa: body text AND the dark band */
+  --mia-ink-soft:#7A6258;   /* secondary text */
+  --mia-cherry:#A2010D;     /* emphasis, links, hover */
+  --mia-pistachio:#BDC698;  /* calm band, tape, notes on dark */
+  --mia-orange:#E69543;     /* already Home's focus-ring colour; accent on dark */
+  --mia-line:#3b1c1530;
+
+  --font-narrow:"MiaNarrow","Noto Sans SC","PingFang SC","Microsoft YaHei",Arial,sans-serif;
+  --font-serif:"MiaBookman","Noto Serif SC","Songti SC",Georgia,serif;
+  --font-script:"MiaScript","Kaiti SC","STKaiti",Georgia,serif;
+  --font-body:system-ui,-apple-system,"Segoe UI","PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+
+  --fs-display:clamp(3.25rem,7vw,6rem);
+  --fs-h1:clamp(2.5rem,5vw,4.5rem);
+  --fs-h2:clamp(2rem,3.6vw,3.25rem);
+  --fs-h3:clamp(1.25rem,1.8vw,1.625rem);
+  --fs-body:clamp(1rem,.35vw + .93rem,1.125rem);
+  --fs-small:.875rem;
+  --fs-meta:.75rem;
+
+  --container:1220px;
+  --gutter:clamp(20px,4vw,56px);
+  --section:clamp(56px,9vw,120px);
+
+  /* 1 --u = 1px at a 1440px viewport; use calc(N * var(--u)) for stage art */
+  --u:clamp(.55px,calc(100vw / 1440),1.3px);
+
+  /* legacy aliases (review.css / universe.css variables) → one palette */
+  --paper:var(--mia-paper);
+  --ink:var(--mia-ink);
+  --wine:var(--mia-cherry);
+  --muted:var(--mia-ink-soft);
+  --line:var(--mia-line);
+  --soft:color-mix(in srgb,var(--mia-pistachio) 30%,var(--mia-paper));
+}
+
+.mia-about{
+  --ab-blue:var(--mia-sky);
+  --ab-red:var(--mia-cherry);
+  --ab-green:var(--mia-pistachio);
+  --ab-brown:var(--mia-ink);
+  --ab-paper:var(--mia-paper);
+}
+/* Breakpoints by convention (vars can't be used in @media): 700 / 1000 / 1500 */
+
+
+/* ---------- C. BASE --------------------------------------------------------*/
+body{background:var(--mia-paper);color:var(--mia-ink);font-family:var(--font-body);font-size:var(--fs-body);line-height:1.6}
+:lang(zh) em,:lang(zh) i{font-style:normal}
+img,svg,video{max-width:100%}
+
+
+/* ---------- D. SHARED CHROME (inner pages; Home keeps its own) -------------*/
+body:not([data-page=home]) .header{background:var(--mia-paper);border-bottom:1px solid var(--mia-line);padding:18px var(--gutter)}
+body:not([data-page=home]) .header .brand{font-family:var(--font-serif);font-weight:600;font-style:italic;font-size:1.375rem;color:var(--mia-ink);text-decoration:none}
+body:not([data-page=home]) .header #nav a{color:var(--mia-ink);font-size:var(--fs-small)}
+body:not([data-page=home]) .header #nav a[aria-current]{color:var(--mia-cherry);text-decoration:underline;text-underline-offset:6px}
+body:not([data-page=home]) footer{background:var(--mia-ink);color:var(--mia-paper);padding:64px var(--gutter) 190px}
+body:not([data-page=home]) footer p{color:var(--mia-pistachio)}
+body:not([data-page=home]) footer a{color:inherit}
+@media(max-width:700px){body:not([data-page=home]) .header .brand{font-size:1.125rem}}
+
+
+/* ---------- E. COMPONENTS (opt-in) -----------------------------------------
+   Text colour changes with the band. Each band sets four roles:
+     --band-ink     body text
+     --band-accent  emphasised words inside big headings (large text)
+     --band-kicker  small labels (must pass 4.5:1)
+     --band-note    handwritten notes (large text)
+   Contrast (calculated):  ink/paper 15:1 · cherry/paper 7.9:1 · sky/paper 3.4:1 (large only)
+   ink/sky 4.4:1 · paper/sky 3.4:1 (large only) · cherry/pistachio 4.6:1
+   paper/ink 15:1 · orange/ink 6.4:1 · pistachio/ink 8.6:1 · paper/cherry 7.9:1 · pistachio/cherry 4.6:1 */
+.mia-band{background:var(--band,var(--mia-paper));color:var(--band-ink,var(--mia-ink));padding-block:var(--section)}
+.mia-band--sky{--band:var(--mia-sky);--band-accent:var(--mia-paper);--band-kicker:var(--mia-ink);--band-note:var(--mia-paper)}
+.mia-band--pistachio{--band:var(--mia-pistachio);--band-accent:var(--mia-cherry);--band-kicker:var(--mia-cherry);--band-note:var(--mia-cherry)}
+.mia-band--ink{--band:var(--mia-ink);--band-ink:var(--mia-paper);--band-accent:var(--mia-orange);--band-kicker:var(--mia-pistachio);--band-note:var(--mia-orange)}
+.mia-band--cherry{--band:var(--mia-cherry);--band-ink:var(--mia-paper);--band-accent:var(--mia-pistachio);--band-kicker:var(--mia-paper);--band-note:var(--mia-pistachio)}
+.mia-band--sky .mia-kicker{font-size:1.125rem}   /* small text on sky must be ≥18px */
+
+.mia-container{width:min(var(--container),100% - 2 * var(--gutter));margin-inline:auto}
+.mia-grid{display:grid;gap:var(--gutter);grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+
+.mia-display{font:700 var(--fs-display)/.92 var(--font-narrow);letter-spacing:-.02em;text-transform:uppercase;margin:0}
+.mia-display em{font:600 .94em/1.1 var(--font-serif);font-style:italic;text-transform:none;letter-spacing:-.04em;color:var(--band-accent,var(--mia-cherry))}
+.mia-h2{font:700 var(--fs-h2)/1 var(--font-narrow);letter-spacing:-.02em;margin:0 0 .5em}
+.mia-note{display:inline-block;font:var(--fs-h3)/1.1 var(--font-script);transform:rotate(-4deg);color:var(--band-note,var(--mia-sky))}
+.mia-kicker{font:600 var(--fs-small)/1.4 var(--font-body);color:var(--band-kicker,var(--mia-cherry));margin:0 0 .75em}
+.mia-prose{max-width:62ch}
+
+/* text colour utilities for one-off emphasis (check contrast table above) */
+.mia-c-cherry{color:var(--mia-cherry)}.mia-c-sky{color:var(--mia-sky)}.mia-c-orange{color:var(--mia-orange)}
+.mia-c-pistachio{color:var(--mia-pistachio)}.mia-c-soft{color:var(--mia-ink-soft)}.mia-c-paper{color:var(--mia-paper)}
+
+.mia-label{display:inline-block;padding:.35em .95em;background:var(--mia-paper);color:var(--mia-ink);font:var(--fs-small)/1.2 var(--font-serif);font-weight:600;font-style:italic;
+  clip-path:polygon(3% 0,96% 2%,100% 17%,97% 34%,100% 56%,97% 75%,99% 91%,4% 100%,0 84%,3% 66%,0 48%,3% 29%,0 13%)}
+.mia-cutout{filter:drop-shadow(2px 0 0 var(--mia-paper)) drop-shadow(-2px 0 0 var(--mia-paper)) drop-shadow(0 2px 0 var(--mia-paper)) drop-shadow(0 -2px 0 var(--mia-paper)) drop-shadow(3px 6px 2px #3b1c1530)}
+.mia-tape{position:absolute;width:100px;height:30px;background:#bdc698d9;transform:rotate(5deg);
+  clip-path:polygon(0 5%,100% 0,97% 18%,100% 35%,97% 55%,100% 80%,98% 100%,0 95%,3% 75%,0 50%,3% 25%)}
+
+.mia-btn{display:inline-flex;align-items:center;justify-content:space-between;gap:2.2em;min-height:44px;padding:.7em 1.2em;border:1px solid currentColor;background:transparent;color:inherit;
+  font:600 var(--fs-small)/1 var(--font-body);text-decoration:none;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.mia-btn:hover,.mia-btn:focus-visible{background:var(--mia-cherry);border-color:var(--mia-cherry);color:var(--mia-paper)}
+.mia-btn--solid{background:var(--mia-cherry);border-color:var(--mia-cherry);color:var(--mia-paper)}
+.mia-btn--solid:hover,.mia-btn--solid:focus-visible{background:var(--mia-ink);border-color:var(--mia-ink)}
+
+.mia-slips{list-style:none;margin:0;padding:0;border-top:1px dashed currentColor}
+.mia-slip{display:grid;grid-template-columns:minmax(5rem,auto) 1fr auto;gap:.5rem 1.5rem;align-items:baseline;padding:1.1rem 0;border-bottom:1px dashed currentColor}
+.mia-slip time{font:var(--fs-h3)/1 var(--font-script);color:var(--band-note,var(--mia-cherry))}
+@media(max-width:700px){.mia-slip{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.mia-btn{transition:none}}
+
+
+/* ---------- F. ABOUT STAGE SCALING (optional, test before keeping) ---------*/
+@media(min-width:701px){
+  .mia-about .ab-spread{min-height:calc(960 * var(--u))}
+  .mia-about .ab-left-stage{height:calc(680 * var(--u))}
+  .mia-about .ab-photo-stage{height:calc(590 * var(--u))}
+  .mia-about .ab-inside{bottom:calc(137 * var(--u))}
+}

@@ -1,0 +1,37 @@
+/* Navigation and material refinements; retain the established page proportions. */
+body:not([data-page=home]) .header #nav a{font-size:17px;line-height:1.5;padding:9px 10px;min-height:44px;display:inline-flex;align-items:center}
+body:not([data-page=home]) .header #nav{gap:8px 12px;flex-wrap:wrap}
+body>footer{font-size:16px;line-height:1.7;gap:20px;padding-right:250px!important}
+body>footer :is(a,p){font-size:16px;line-height:1.7}
+body>footer a{display:inline-flex;align-items:center;min-height:44px;padding-block:6px}
+/* These are existing wool photographs, behind all text and portrait layers. */
+.mia-about :is(.ab-left,.ab-right,.ab-under)::before,.mia-contact::before{background-image:url('personal-space-assets/blue.webp');background-size:560px;filter:none;mix-blend-mode:normal;opacity:.68}
+.mia-about .ab-left::before{background-image:url('personal-space-assets/wall.webp');filter:none;opacity:.68}
+.mia-about .ab-under::before{background-image:url('archive-assets/wool-fibres.png');background-size:650px;filter:grayscale(1);mix-blend-mode:luminosity;opacity:.50}
+/* Preserve the right gutter; move only edge-aligned controls clear of the larger portrait. */
+#mia-navigation,#mia-toggle{width:clamp(180px,11.5vw,220px)}
+#mia-navigation{right:8px;bottom:14px}
+#mia-toggle{min-height:170px}
+#mia-toggle .mia-mini{width:clamp(180px,11.5vw,220px)}
+#mia-toggle>span:last-child{font-size:17px;min-height:44px;padding:5px 17px}
+.mia-menu{bottom:calc(100% + 6px);width:380px;max-height:calc(100dvh - 220px);overflow:visible}
+.mia-menu::after{content:'';position:absolute;left:0;right:0;bottom:-20px;height:22px;background:transparent;pointer-events:auto}
+.mia-menu a{font-size:17px;line-height:1.4;min-height:64px}
+.mia-contact :is(.ct-social,.ct-email-row){padding-right:36px}
+.mia-about .ab-work-link,.mia-selected .sw-open{padding-right:30px}
+@media(max-height:640px){.mia-menu{bottom:100%;max-height:calc(100dvh - 175px);overflow-y:auto}.mia-menu::after{display:none}}
+@media(max-width:1000px){
+ body:not([data-page=home]) .header #nav a{font-size:16px;padding:9px 8px}
+ #mia-navigation,#mia-toggle,#mia-toggle .mia-mini{width:160px}
+ #mia-toggle{min-height:130px}.mia-menu{max-height:calc(100dvh - 180px)}
+}
+@media(max-width:700px){
+ body>footer{padding:40px 24px 200px!important;gap:14px;flex-wrap:wrap}
+ body>footer :is(a,p){font-size:15px}
+ #mia-navigation,#mia-toggle,#mia-toggle .mia-mini{width:144px}
+ #mia-navigation{right:10px;bottom:10px}#mia-toggle{min-height:120px}
+ #mia-toggle>span:last-child{font-size:16px}
+ .mia-menu{width:340px;max-width:calc(100vw - 28px);max-height:calc(100dvh - 170px);padding:14px;gap:10px}
+ .mia-menu a{font-size:16px;min-height:60px}.mia-menu img{width:36px;height:36px}
+ .mia-contact :is(.ct-social,.ct-email-row){padding-right:0}
+}

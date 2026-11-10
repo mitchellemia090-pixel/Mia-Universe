@@ -1,0 +1,96 @@
+{
+  "oscars": {
+    "source": "projects/Who_Gets_Nominated.html #oscarData",
+    "groups": [
+      "White Male",
+      "White Female",
+      "BIPOC Male",
+      "BIPOC Female"
+    ],
+    "nominations": [
+      392,
+      269,
+      65,
+      49
+    ],
+    "wins": [
+      70,
+      52,
+      21,
+      12
+    ],
+    "mapping": "Original four-petal geometry; petal length proportional to square root of count. Brand palette substituted."
+  },
+  "tourism": {
+    "source": "projects/When_a_City_Goes_Viral.html #reportData.series",
+    "series": [
+      {
+        "year": 2013,
+        "spending": 2.63,
+        "trips": 32.62,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      },
+      {
+        "year": 2014,
+        "spending": 3.03,
+        "trips": 36.11,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      },
+      {
+        "year": 2015,
+        "spending": 3.42,
+        "trips": 40.0,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      },
+      {
+        "year": 2016,
+        "spending": 3.94,
+        "trips": 44.4,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      },
+      {
+        "year": 2017,
+        "spending": 4.57,
+        "trips": 50.01,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      },
+      {
+        "year": 2018,
+        "spending": 5.13,
+        "trips": 55.39,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      },
+      {
+        "year": 2019,
+        "spending": 5.73,
+        "trips": 60.1,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      },
+      {
+        "year": 2020,
+        "spending": 2.23,
+        "trips": 28.79,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      },
+      {
+        "year": 2021,
+        "spending": 2.92,
+        "trips": 32.46,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      },
+      {
+        "year": 2022,
+        "spending": 2.04,
+        "trips": 25.3,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      },
+      {
+        "year": 2023,
+        "spending": 4.91,
+        "trips": 48.91,
+        "origin": "原始课程表；2019与2023已交叉核对"
+      }
+    ],
+    "mapping": "Original actual-value series for trips and spending, separately scaled, decorative thumbnail without axes or labels. Consult full project for values and units."
+  }
+}

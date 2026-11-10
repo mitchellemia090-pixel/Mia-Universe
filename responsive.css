@@ -1,0 +1,36 @@
+/* Shared reading/layout contract. Keep the historical #main fix; do not scale pages. */
+html{ -webkit-text-size-adjust:100%;text-size-adjust:100% }
+body:not([data-page="home"]){min-width:0}
+body:not([data-page="home"]) #main{width:100%;max-width:none;min-width:0;margin-inline:0;padding-inline:0}
+body:not([data-page="home"]) :is(main,article,section,figure){box-sizing:border-box;min-width:0}
+body:not([data-page="home"]) :is(input,textarea,select){font-size:16px}
+body:not([data-page="home"]) :is(.ab-intro p,.ab-detail p,.ab-voice p,.ab-inside p,.sw-description,.sw-intro-copy,.ar-heading-copy,.ar-category-copy,.ar-note,.ct-one-line,.ct-note,.ps-form-intro,.ps-form-note,.ps-instruction,.ps-privacy){font-size:clamp(16px,.3vw + 15px,18px);line-height:1.75}
+body:not([data-page="home"]) :is(.sw-meta,.ar-folder-meta,.ct-copy-status,.ar-cabinet-caption,.ab-education){font-size:14px;line-height:1.65}
+body:not([data-page="home"]) :is(.sw-filters button,.ar-searchbar label,.ar-clear,.sw-open,.ct-art-button,.ps-submit){font-size:14px;min-height:44px}
+.mia-about .ab-right{height:auto}.mia-about .ab-intro{max-width:60ch}.mia-about .ab-detail{min-width:0}
+.mia-contact .ct-copy{min-width:0}.mia-contact .ct-email-row{min-width:0}.mia-contact .ct-email{overflow-wrap:anywhere}
+dialog:has(iframe){box-sizing:border-box;width:min(1600px,calc(100vw - 24px));height:calc(100dvh - 24px);max-width:none;max-height:none;padding:0}
+dialog[open]:has(iframe){display:flex;flex-direction:column;overflow:hidden}
+dialog:has(iframe)>:not(iframe){flex-shrink:0}
+dialog iframe{box-sizing:border-box;display:block;flex:1 1 0%;width:100%;height:auto;min-width:0;min-height:0;border:0}
+dialog :is(.sw-dialog-bar,.ar-reader-bar){flex-wrap:wrap;min-height:56px;font-size:14px}
+dialog :is(.sw-close,.sw-external,.ar-reader-bar button,.ar-reader-bar a){font-size:14px;min-height:44px}
+.responsive-table,.source-table,.table-wrap{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain}
+.responsive-table>table{margin-block:0}
+.table-scroll{box-sizing:border-box;max-width:100%;min-width:0;overflow-x:auto}
+.record-table-scroll{margin-right:0;padding-right:0;overflow-x:auto}
+.detail-table :is(th,td),.records-table :is(th,td){font-size:14px;line-height:1.6}
+body:not([data-page="home"]) :is(img,video,canvas){max-width:100%}
+body:not([data-page="home"]) article :is(img,video){height:auto}
+body:not([data-page="home"]) :is(.wrap,.chapter,.article-layout){min-width:0}
+@media(max-width:700px){
+ dialog:has(iframe){width:100vw;height:100dvh;margin:0;border:0;border-radius:0}
+ .mia-about .ab-inside{max-width:75%;bottom:40px}.mia-about .ab-left{min-height:860px}
+ .mia-about .ab-right{min-height:0;padding-bottom:36px}.mia-about .ab-photo-stage{height:440px}
+ .mia-about .ab-under-grid,.mia-about .ab-voice{gap:32px}
+ .mia-selected .sw-intro-copy{max-width:none}.mia-selected .sw-filters{gap:8px}
+ .mia-archive .ar-layout{grid-template-columns:minmax(0,1fr)}
+ .mia-archive :is(input,select){font-size:16px;height:48px}
+ .mia-contact .ct-email{font-size:clamp(15px,4.4vw,20px)}
+ .mia-personal .ps-request,.ps-request{max-width:100%}
+}

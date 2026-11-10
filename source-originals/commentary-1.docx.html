@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Original material / MIA</title>
+<style>body{background:#fbf7ee;color:#3b1c15;font:1rem/1.6 system-ui;margin:4rem auto;padding:0 1.2rem;max-width:45rem}a{color:inherit}</style>
+<h1>Original material</h1>
+<p><code>commentary-1.docx</code></p>
+<p id="availability">This file is currently unavailable online. The work page remains available in the portfolio.</p>
+<p lang="zh-CN">这份原始附件暂未提供在线访问，作品页面仍可以阅读。</p>
+<p><a id="open" hidden>Open file / 打开文件 ↗</a></p>
+<a href="../index.html#/archive">Archive / 作品档案</a>
+<script src="../public-media-config.js"></script>
+<script>
+const value = window.MIA_PUBLIC_MEDIA?.["source-originals/commentary-1.docx"];
+if (value) {
+ const address = new URL(value, new URL("../", location.href));
+ if (address.protocol === 'https:' || address.origin === location.origin) {
+  const link = document.getElementById('open');
+  link.href = address.href;
+  link.hidden = false;
+  document.getElementById('availability').hidden = true;
+ }
+}
+</script></html>
