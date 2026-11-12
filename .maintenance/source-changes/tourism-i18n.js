@@ -28,7 +28,7 @@
  function terms(query){
   const q=query.trim().toLowerCase();if(!q)return [];
   const aliases={'publicity':['宣传'],'spicy hot pot':['麻辣烫'],'hot pot':['麻辣烫'],'hospitality':['热情','好客','服务'],'food':['美食','食物','吃的'],'promotion':['宣传'],'service':['服务']};
-  return aliases[q]||[...new Set(Object.entries(words).filter(([,value])=>value.toLowerCase()===q).map(([token])=>token).concat(q))];
+  return aliases[q]||[...new Set(Object.entries({...words,...window.MIA_TOURISM_CLOUDS?.aliases}).filter(([,value])=>value.toLowerCase()===q).map(([token])=>token).concat(Object.entries(words).filter(([,value])=>value.toLowerCase()===q).map(([token])=>token),q))];
  }
  function gloss(record,topics){
   if(excerpts[record.id])return {label:'English reading summary',text:excerpts[record.id]};

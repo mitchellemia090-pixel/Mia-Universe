@@ -113,84 +113,20 @@ function openCloudWord(city,item){
  $('#explorer').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
  $('#searchFilter').focus({preventScroll:true});
 }
-const cloudInks=['#1465a7','#147363','#8a3562','#875010','#544b9d','#a3442c'];
-const cloudShapes={
- '哈尔滨':{
-  upperWords:new Set([2,4,7,10,13,17,22,27]),
-  upper:{ellipse:[.28,.29,.185],center:.28},
-  main:{ellipse:[.65,.47,.32],center:.64}
- },
- '天水':{
-  upperWords:new Set([13,21,27]),
-  upper:{ellipse:[.155,.24,.102],center:.155},
-  main:{center:.48}
- }
-};
-function cloudHalfWidth(region,y){
- if(region.ellipse){
-  const [cy,rx,ry]=region.ellipse;
-  return rx*Math.sqrt(Math.max(0,1-((y-cy)/ry)**2));
- }
- if(y<.28||y>.90)return 0;
- return .48*Math.sqrt(Math.max(0,1-((y-.28)/.68)**2));
-}
-const cloudSpiral=Array.from({length:6500},(_,i)=>{
- const radius=Math.sqrt(i)*4.25,angle=i*.46;
- return [Math.cos(angle)*radius,Math.sin(angle)*radius];
-});
-const cloudMeasure=document.createElement('canvas').getContext('2d',{willReadFrequently:true});
-function cloudLayout(items,w,h,factor,maxRate,shape){
- const boxes=[];
- const widths=new Map([shape.upper,shape.main].map(region=>[
-  region,Float32Array.from({length:h+1},(_,y)=>w*cloudHalfWidth(region,y/h))
- ]));
- for(const [index,item] of items.entries()){
-  const region=shape.upperWords.has(index)?shape.upper:shape.main;
-  const halfWidths=widths.get(region);
-  // Shared readability styles enforce 16px controls. Pack the actual font size,
-  // including padding/borders, rather than measuring a smaller invisible font.
-  const font=Math.max(16,(12+31*Math.sqrt(item.rate/maxRate))*factor);
-  cloudMeasure.font=`650 ${font}px Arial, "Microsoft YaHei", sans-serif`;
-  const text=tr(item.word);
-  const bw=Math.ceil(cloudMeasure.measureText(text).width)+12,bh=Math.ceil(font*1.2)+10;
-  let placed=null;
-  for(const [dx,dy] of cloudSpiral){
-   const x=w/2+dx*w/h-bw/2,y=h*region.center+dy-bh/2;
-   if(y<4||y+bh>h-4)continue;
-   const half=Math.min(halfWidths[Math.floor(y)],halfWidths[Math.round(y+bh/2)],halfWidths[Math.ceil(y+bh)]);
-   if(x<w/2-half+4||x+bw>w/2+half-4)continue;
-   if(boxes.some(b=>!(x+bw+2<b.x||x>b.x+b.w+2||y+bh+2<b.y||y>b.y+b.h+2)))continue;
-   placed={x,y,w:bw,h:bh,font,item,ink:cloudInks[index%cloudInks.length]};break;
-  }
-  if(!placed)return null;
-  boxes.push(placed);
- }
- return boxes;
-}
-function renderClouds(){
+let cloudGeneration=0;
+async function renderClouds(){
+ const generation=++cloudGeneration;window.MIA_CLOUD_READY=false;delete window.MIA_CLOUD_ERROR;
  const grid=$('#cloudGrid');grid.classList.toggle('single',state.cloudcity!=='both');
  $$('[data-cloud-card]').forEach(card=>card.hidden=state.cloudcity!=='both'&&card.dataset.cloudCard!==state.cloudcity);
+ await document.fonts.ready;if(generation!==cloudGeneration)return;
  const visible=cities.filter(c=>state.cloudcity==='both'||state.cloudcity===c);
- const maxRate=Math.max(...cities.flatMap(c=>D.wordClouds[c].map(x=>x.rate)));
- let layouts={},factor=1;
- for(;factor>=.31;factor-=.04){
-  layouts={};let ok=true;
-  for(const city of visible){const host=document.getElementById(cloudHosts[city]);const result=cloudLayout(D.wordClouds[city],host.clientWidth,host.clientHeight,factor,maxRate,cloudShapes[city]);if(!result){ok=false;break;}layouts[city]=result;}
-  if(ok)break;
- }
- for(const city of visible){
-  const host=document.getElementById(cloudHosts[city]),note=document.getElementById(cloudHosts[city]+'Note');host.replaceChildren();host.style.overflow='';
-  const boxes=layouts[city];
-  if(!boxes){host.style.overflow='auto';note.textContent=L('当前宽度使用词频列表，以百分比显示频率；选择词语可查看语境。','At this width, frequencies are shown as a list with percentages. Select a word for context.');host.innerHTML=D.wordClouds[city].map(x=>`<button class="cloud-fallback" data-word="${esc(x.word)}" title="${esc(tr(x.word))}: ${num(x.count)} ${L('条评论','comments')} (${fmt(x.rate,2)}%)">${esc(tr(x.word))} · ${fmt(x.rate,1)}%</button>`).join('');host.querySelectorAll('button').forEach((b,i)=>{const item=D.wordClouds[city][i],show=()=>note.textContent=L(`${city} · ${item.word}：${num(item.count)} 条评论，占 ${fmt(item.rate,2)}%`,`${tr(city)} · ${tr(item.word)}: ${num(item.count)} comments (${fmt(item.rate,2)}%). Select to read the source comments.`);b.addEventListener('click',()=>openCloudWord(city,item));b.addEventListener('focus',show);b.addEventListener('pointerenter',show)});continue;}
-  for(const b of boxes){
-   const button=document.createElement('button');button.className='cloud-word';button.textContent=tr(b.item.word);button.type='button';button.dataset.word=b.item.word;
-   const label=L(`${city} · ${b.item.word}：${num(b.item.count)} 条评论 / ${num(D.totals[city])} 条，占 ${fmt(b.item.rate,2)}%`,`${tr(city)} · ${tr(b.item.word)}: ${num(b.item.count)} of ${num(D.totals[city])} comments (${fmt(b.item.rate,2)}%)`);
-   button.setAttribute('aria-label',label+L('；点击查看评论','; select to read comments'));button.title=label;
-   Object.assign(button.style,{left:b.x+'px',top:b.y+'px',width:b.w+'px',height:b.h+'px',fontSize:b.font+'px'});
-   button.style.setProperty('--cloud-ink',b.ink);
-   const show=()=>note.textContent=label;button.addEventListener('pointerenter',show);button.addEventListener('focus',show);button.addEventListener('click',()=>openCloudWord(city,b.item));host.appendChild(button);
-  }
- }
+ for(const city of visible)document.getElementById(cloudHosts[city]).classList.add('mia-shaped-cloud');
+ const width=Math.round(Math.min(600,...visible.map(city=>document.getElementById(cloudHosts[city]).clientWidth)));
+ try{
+  const chart=window.MIA_TOURISM_CLOUDS.layout(D.wordClouds,width,T);
+  for(const city of visible)window.MIA_TOURISM_CLOUDS.render(document.getElementById(cloudHosts[city]),city,chart,T,openCloudWord,document.getElementById(cloudHosts[city]+'Note'),D.totals[city]);
+  window.MIA_CLOUD_READY={language:T.en()?'en':'zh',width,height:chart.h,factor:chart.factor,words:60};
+ }catch(error){window.MIA_CLOUD_ERROR=error.message;throw error}
 }
 function renderAnnual(){
  $('#annualCards').innerHTML=D.annualFollowup.map(r=>{const trips=state.annual==='trips',growth=r[trips?'tripsGrowth':'spendingGrowth'];return `<article class="annual-card"><h4>${esc(tr(r.city))} <a href="#source-${r.source}" class="ref">[${r.source.slice(1)}]</a></h4><div class="annual-total">${fmt(trips?r.trips:r.spending,trips?0:1)}<span>${trips?L('万人次','10,000 visitor trips'):L('亿元','CNY 100 million')}</span></div><p>${L('2024 全年','Full year 2024')} · ${trips?L('接待游客','Visitor trips'):esc(tr(r.spendingLabel))}</p><div class="growth-head"><span>${L('较 2023 全年','Compared with full year 2023')}</span><strong>+${fmt(growth,1)}%</strong></div><div class="growth-track" role="img" aria-label="${esc(L(`${r.city}同比增长${growth}%，共同尺度0到40%`,`${tr(r.city)}: ${growth}% year-on-year growth; shared scale 0–40%`))}"><i style="width:${growth/40*100}%"></i></div><div class="growth-ticks" aria-hidden="true"><span>0%</span><span>20%</span><span>40%</span></div></article>`;}).join('');
@@ -222,8 +158,9 @@ let scrollScheduled=false;addEventListener('scroll',()=>{if(!scrollScheduled){sc
 const plotWidths=new WeakMap();const resize=new ResizeObserver(entries=>{let changed=false;for(const entry of entries){const width=entry.contentRect.width;if(Math.abs(width-(plotWidths.get(entry.target)??-1))>.5){plotWidths.set(entry.target,width);changed=true}}if(!changed)return;cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(()=>{renderRecovery();renderQuarter();renderClouds();});});['tripsPlot','spendingPlot','quarterPlot','cloudGrid'].forEach(id=>resize.observe(document.getElementById(id)));
 function renderAll(){
  renderMethods();renderRecovery();renderQuarter();renderPeriod();renderTopics();renderComments();renderAnnual();renderWordMethods();renderClouds();T.localizeAttributes();
+ window.MIA_TOURISM_HERO?.layout();
  let cloudGloss=$('#cloudGlossNote');if(!cloudGloss){cloudGloss=document.createElement('p');cloudGloss.id='cloudGlossNote';cloudGloss.className='source-note';$('#cloudGrid').after(cloudGloss)}
- cloudGloss.textContent=L('英文词云为原始中文词语的释义。麻辣烫是一种可自选食材的辣味烫煮食物；“小土豆”是对南方游客的昵称。统计和点击匹配仍使用原始中文词语。','English word-cloud labels are glosses of the Chinese tokens. Malatang is a spicy hot-pot dish; “little potatoes” is a nickname for southern visitors. Counts and exact matches still use the original Chinese tokens.');
+ cloudGloss.textContent=L('文字分别组成哈尔滨雪人与天水宽口麻辣烫碗；两城使用相同的含词评论占比平方根字号尺度。英文标签为中文关键词的释义，统计与点击匹配仍使用未改动的原始中文索引。','Words form a snowman for Harbin and a wide malatang bowl for Tianshui. Both cities use the same square-root scale of the share of comments containing a word. Malatang is a spicy hot-pot dish; “little potatoes” is a nickname for southern visitors. Counts and exact matches use the unchanged Chinese tokens.');
  let searchHelp=$('#searchLanguageNote');if(!searchHelp){searchHelp=document.createElement('p');searchHelp.id='searchLanguageNote';searchHelp.className='source-note';$('#explorer .filters').after(searchHelp)}
  searchHelp.textContent=L('关键词可输入中文，也可输入对应的英文释义。下载的数据保留中文原始评论；英文摘要或关键词语境不用于推断情感或立场。','You can search with Chinese keywords or mapped English glosses. Downloads retain the Chinese source comments. Reading summaries and keyword context do not classify sentiment or stance.');
 }

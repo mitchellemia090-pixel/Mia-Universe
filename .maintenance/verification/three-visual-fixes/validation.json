@@ -1,0 +1,1962 @@
+[
+  {
+    "name": "local-1440-en",
+    "home": {
+      "zoom": 1,
+      "fonts": "loaded",
+      "labels": [
+        {
+          "text": "Home",
+          "left": 40.375,
+          "right": 40.375,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 121.390625,
+            "y": 613,
+            "width": 146,
+            "height": 48,
+            "top": 613,
+            "right": 267.390625,
+            "bottom": 661,
+            "left": 121.390625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "About",
+          "left": 40.703125,
+          "right": 40.71875,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 221.765625,
+            "y": 360.25,
+            "width": 146,
+            "height": 48,
+            "top": 360.25,
+            "right": 367.765625,
+            "bottom": 408.25,
+            "left": 221.765625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "Selected Work",
+          "left": 24.03125,
+          "right": 24.03125,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 457.078125,
+            "y": 204.03125,
+            "width": 201,
+            "height": 48,
+            "top": 204.03125,
+            "right": 658.078125,
+            "bottom": 252.03125,
+            "left": 457.078125
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "none"
+        },
+        {
+          "text": "Archive",
+          "left": 32.3125,
+          "right": 32.328125,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 809.40625,
+            "y": 204.03125,
+            "width": 146,
+            "height": 48,
+            "top": 204.03125,
+            "right": 955.40625,
+            "bottom": 252.03125,
+            "left": 809.40625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "Personal Space",
+          "left": 26.734375,
+          "right": 26.734375,
+          "top": 3,
+          "bottom": 3.1875,
+          "box": {
+            "x": 1072.21875,
+            "y": 360.25,
+            "width": 146,
+            "height": 58.375,
+            "top": 360.25,
+            "right": 1218.21875,
+            "bottom": 418.625,
+            "left": 1072.21875
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "Contact",
+          "left": 31.953125,
+          "right": 31.953125,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 1172.59375,
+            "y": 613,
+            "width": 146,
+            "height": 48,
+            "top": 613,
+            "right": 1318.59375,
+            "bottom": 661,
+            "left": 1172.59375
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        }
+      ],
+      "gap": 151.328125,
+      "overflow": false
+    },
+    "clouds": {
+      "ready": {
+        "language": "en",
+        "width": 598,
+        "height": 970,
+        "factor": 0.7,
+        "words": 60
+      },
+      "counts": [
+        30,
+        30
+      ],
+      "fallbacks": 0,
+      "sets": [
+        true,
+        true
+      ],
+      "fontScales": [
+        "0.7",
+        "0.7"
+      ],
+      "pathTextFits": true,
+      "overflow": false
+    },
+    "captions": [
+      {
+        "card": ".harbin-print",
+        "text": "Snow · Hospitality · Imagining a city",
+        "height": 395,
+        "captionBottom": 372,
+        "bottomPadding": 23,
+        "covered": [],
+        "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)"
+      },
+      {
+        "card": ".tianshui-print",
+        "text": "Food · Publicity · Local life",
+        "height": 389,
+        "captionBottom": 365,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+      }
+    ],
+    "selected": [
+      {
+        "city": "哈尔滨",
+        "word": "服务",
+        "expectedCount": 14,
+        "percent": "1.68",
+        "total": 835,
+        "result": "14 comments · showing 1–6",
+        "readout": "Harbin · service: 14 of 835 comments (1.68%)",
+        "selectedCity": "哈尔滨",
+        "commentsMatch": true,
+        "countMatches": true
+      },
+      {
+        "city": "天水",
+        "word": "麻辣烫",
+        "expectedCount": 331,
+        "percent": "11.87",
+        "total": 2789,
+        "result": "331 comments · showing 1–6",
+        "readout": "Tianshui · malatang: 331 of 2789 comments (11.87%)",
+        "selectedCity": "天水",
+        "commentsMatch": true,
+        "countMatches": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "local-1440-zh",
+    "home": {
+      "zoom": 1,
+      "fonts": "loaded",
+      "labels": [
+        {
+          "text": "首页",
+          "left": 49,
+          "right": 49,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 121.390625,
+            "y": 613,
+            "width": 146,
+            "height": 48,
+            "top": 613,
+            "right": 267.390625,
+            "bottom": 661,
+            "left": 121.390625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "关于我",
+          "left": 37,
+          "right": 37,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 221.765625,
+            "y": 360.25,
+            "width": 146,
+            "height": 48,
+            "top": 360.25,
+            "right": 367.765625,
+            "bottom": 408.25,
+            "left": 221.765625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "精选作品",
+          "left": 24,
+          "right": 24,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 485.578125,
+            "y": 204.03125,
+            "width": 144,
+            "height": 48,
+            "top": 204.03125,
+            "right": 629.578125,
+            "bottom": 252.03125,
+            "left": 485.578125
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "none"
+        },
+        {
+          "text": "作品档案",
+          "left": 25,
+          "right": 25,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 809.40625,
+            "y": 204.03125,
+            "width": 146,
+            "height": 48,
+            "top": 204.03125,
+            "right": 955.40625,
+            "bottom": 252.03125,
+            "left": 809.40625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "私人空间",
+          "left": 25,
+          "right": 25,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 1072.21875,
+            "y": 360.25,
+            "width": 146,
+            "height": 48,
+            "top": 360.25,
+            "right": 1218.21875,
+            "bottom": 408.25,
+            "left": 1072.21875
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "联系我",
+          "left": 37,
+          "right": 37,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 1172.59375,
+            "y": 613,
+            "width": 146,
+            "height": 48,
+            "top": 613,
+            "right": 1318.59375,
+            "bottom": 661,
+            "left": 1172.59375
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        }
+      ],
+      "gap": 179.828125,
+      "overflow": false
+    },
+    "clouds": {
+      "ready": {
+        "language": "zh",
+        "width": 598,
+        "height": 970,
+        "factor": 0.7,
+        "words": 60
+      },
+      "counts": [
+        30,
+        30
+      ],
+      "fallbacks": 0,
+      "sets": [
+        true,
+        true
+      ],
+      "fontScales": [
+        "0.7",
+        "0.7"
+      ],
+      "pathTextFits": true,
+      "overflow": false
+    },
+    "captions": [
+      {
+        "card": ".harbin-print",
+        "text": "冰雪 · 待客 · 城市想象",
+        "height": 370,
+        "captionBottom": 346,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)"
+      },
+      {
+        "card": ".tianshui-print",
+        "text": "饮食 · 宣传 · 地方日常",
+        "height": 364,
+        "captionBottom": 340,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+      }
+    ],
+    "selected": [
+      {
+        "city": "哈尔滨",
+        "word": "服务",
+        "expectedCount": 14,
+        "percent": "1.68",
+        "total": 835,
+        "result": "找到 14 条评论 · 当前 1–6",
+        "readout": "哈尔滨 · 服务：14 条评论 / 835 条，占 1.68%",
+        "selectedCity": "哈尔滨",
+        "commentsMatch": true,
+        "countMatches": true
+      },
+      {
+        "city": "天水",
+        "word": "麻辣烫",
+        "expectedCount": 331,
+        "percent": "11.87",
+        "total": 2789,
+        "result": "找到 331 条评论 · 当前 1–6",
+        "readout": "天水 · 麻辣烫：331 条评论 / 2789 条，占 11.87%",
+        "selectedCity": "天水",
+        "commentsMatch": true,
+        "countMatches": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "local-375-en",
+    "home": {
+      "zoom": 1,
+      "fonts": "loaded",
+      "labels": [
+        {
+          "text": "Home",
+          "left": 16.25,
+          "right": 16.25,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 12.625,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 88.625,
+            "bottom": 349,
+            "left": 12.625
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "About",
+          "left": 16.46875,
+          "right": 16.484375,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 38.765625,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 114.765625,
+            "bottom": 263.765625,
+            "left": 38.765625
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "Selected Work",
+          "left": 12.625,
+          "right": 12.640625,
+          "top": 3,
+          "bottom": 4,
+          "box": {
+            "x": 100.203125,
+            "y": 167.09375,
+            "width": 84,
+            "height": 44,
+            "top": 167.09375,
+            "right": 184.203125,
+            "bottom": 211.09375,
+            "left": 100.203125
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "none"
+        },
+        {
+          "text": "Archive",
+          "left": 10.875,
+          "right": 10.890625,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 194.78125,
+            "y": 167.09375,
+            "width": 76,
+            "height": 44,
+            "top": 167.09375,
+            "right": 270.78125,
+            "bottom": 211.09375,
+            "left": 194.78125
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "Personal Space",
+          "left": 7.15625,
+          "right": 7.15625,
+          "top": 3,
+          "bottom": 4,
+          "box": {
+            "x": 260.21875,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 336.21875,
+            "bottom": 263.765625,
+            "left": 260.21875
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "Contact",
+          "left": 10.625,
+          "right": 10.640625,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 286.375,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 362.375,
+            "bottom": 349,
+            "left": 286.375
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        }
+      ],
+      "gap": 10.578125,
+      "overflow": false
+    },
+    "clouds": {
+      "ready": {
+        "language": "en",
+        "width": 316,
+        "height": 820,
+        "factor": 0.55,
+        "words": 60
+      },
+      "counts": [
+        30,
+        30
+      ],
+      "fallbacks": 0,
+      "sets": [
+        true,
+        true
+      ],
+      "fontScales": [
+        "0.55",
+        "0.55"
+      ],
+      "pathTextFits": true,
+      "overflow": false
+    },
+    "captions": [
+      {
+        "card": ".harbin-print",
+        "text": "Snow · Hospitality · Imagining a city",
+        "height": 420,
+        "captionBottom": 397,
+        "bottomPadding": 23,
+        "covered": [],
+        "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)"
+      },
+      {
+        "card": ".tianshui-print",
+        "text": "Food · Publicity · Local life",
+        "height": 389,
+        "captionBottom": 365,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+      }
+    ],
+    "selected": [
+      {
+        "city": "哈尔滨",
+        "word": "服务",
+        "expectedCount": 14,
+        "percent": "1.68",
+        "total": 835,
+        "result": "14 comments · showing 1–6",
+        "readout": "Harbin · service: 14 of 835 comments (1.68%)",
+        "selectedCity": "哈尔滨",
+        "commentsMatch": true,
+        "countMatches": true
+      },
+      {
+        "city": "天水",
+        "word": "麻辣烫",
+        "expectedCount": 331,
+        "percent": "11.87",
+        "total": 2789,
+        "result": "331 comments · showing 1–6",
+        "readout": "Tianshui · malatang: 331 of 2789 comments (11.87%)",
+        "selectedCity": "天水",
+        "commentsMatch": true,
+        "countMatches": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "local-375-zh",
+    "home": {
+      "zoom": 1,
+      "fonts": "loaded",
+      "labels": [
+        {
+          "text": "首页",
+          "left": 22,
+          "right": 22,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 12.625,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 88.625,
+            "bottom": 349,
+            "left": 12.625
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "关于我",
+          "left": 14,
+          "right": 14,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 38.765625,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 114.765625,
+            "bottom": 263.765625,
+            "left": 38.765625
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "精选作品",
+          "left": 10,
+          "right": 10,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 100.203125,
+            "y": 167.09375,
+            "width": 84,
+            "height": 44,
+            "top": 167.09375,
+            "right": 184.203125,
+            "bottom": 211.09375,
+            "left": 100.203125
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "none"
+        },
+        {
+          "text": "作品档案",
+          "left": 6,
+          "right": 6,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 194.78125,
+            "y": 167.09375,
+            "width": 76,
+            "height": 44,
+            "top": 167.09375,
+            "right": 270.78125,
+            "bottom": 211.09375,
+            "left": 194.78125
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "私人空间",
+          "left": 6,
+          "right": 6,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 260.21875,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 336.21875,
+            "bottom": 263.765625,
+            "left": 260.21875
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "联系我",
+          "left": 14,
+          "right": 14,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 286.375,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 362.375,
+            "bottom": 349,
+            "left": 286.375
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        }
+      ],
+      "gap": 10.578125,
+      "overflow": false
+    },
+    "clouds": {
+      "ready": {
+        "language": "zh",
+        "width": 316,
+        "height": 700,
+        "factor": 0.55,
+        "words": 60
+      },
+      "counts": [
+        30,
+        30
+      ],
+      "fallbacks": 0,
+      "sets": [
+        true,
+        true
+      ],
+      "fontScales": [
+        "0.55",
+        "0.55"
+      ],
+      "pathTextFits": true,
+      "overflow": false
+    },
+    "captions": [
+      {
+        "card": ".harbin-print",
+        "text": "冰雪 · 待客 · 城市想象",
+        "height": 370,
+        "captionBottom": 346,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)"
+      },
+      {
+        "card": ".tianshui-print",
+        "text": "饮食 · 宣传 · 地方日常",
+        "height": 364,
+        "captionBottom": 340,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+      }
+    ],
+    "selected": [
+      {
+        "city": "哈尔滨",
+        "word": "服务",
+        "expectedCount": 14,
+        "percent": "1.68",
+        "total": 835,
+        "result": "找到 14 条评论 · 当前 1–6",
+        "readout": "哈尔滨 · 服务：14 条评论 / 835 条，占 1.68%",
+        "selectedCity": "哈尔滨",
+        "commentsMatch": true,
+        "countMatches": true
+      },
+      {
+        "city": "天水",
+        "word": "麻辣烫",
+        "expectedCount": 331,
+        "percent": "11.87",
+        "total": 2789,
+        "result": "找到 331 条评论 · 当前 1–6",
+        "readout": "天水 · 麻辣烫：331 条评论 / 2789 条，占 11.87%",
+        "selectedCity": "天水",
+        "commentsMatch": true,
+        "countMatches": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "Mia-Universe-1440-en",
+    "home": {
+      "zoom": 1,
+      "fonts": "loaded",
+      "labels": [
+        {
+          "text": "Home",
+          "left": 40.375,
+          "right": 40.375,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 121.390625,
+            "y": 613,
+            "width": 146,
+            "height": 48,
+            "top": 613,
+            "right": 267.390625,
+            "bottom": 661,
+            "left": 121.390625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "About",
+          "left": 40.703125,
+          "right": 40.71875,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 221.765625,
+            "y": 360.25,
+            "width": 146,
+            "height": 48,
+            "top": 360.25,
+            "right": 367.765625,
+            "bottom": 408.25,
+            "left": 221.765625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "Selected Work",
+          "left": 24.03125,
+          "right": 24.03125,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 457.078125,
+            "y": 204.03125,
+            "width": 201,
+            "height": 48,
+            "top": 204.03125,
+            "right": 658.078125,
+            "bottom": 252.03125,
+            "left": 457.078125
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "none"
+        },
+        {
+          "text": "Archive",
+          "left": 32.3125,
+          "right": 32.328125,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 809.40625,
+            "y": 204.03125,
+            "width": 146,
+            "height": 48,
+            "top": 204.03125,
+            "right": 955.40625,
+            "bottom": 252.03125,
+            "left": 809.40625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "Personal Space",
+          "left": 26.734375,
+          "right": 26.734375,
+          "top": 3,
+          "bottom": 3.1875,
+          "box": {
+            "x": 1072.21875,
+            "y": 360.25,
+            "width": 146,
+            "height": 58.375,
+            "top": 360.25,
+            "right": 1218.21875,
+            "bottom": 418.625,
+            "left": 1072.21875
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "Contact",
+          "left": 31.953125,
+          "right": 31.953125,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 1172.59375,
+            "y": 613,
+            "width": 146,
+            "height": 48,
+            "top": 613,
+            "right": 1318.59375,
+            "bottom": 661,
+            "left": 1172.59375
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        }
+      ],
+      "gap": 151.328125,
+      "overflow": false
+    },
+    "clouds": {
+      "ready": {
+        "language": "en",
+        "width": 598,
+        "height": 970,
+        "factor": 0.7,
+        "words": 60
+      },
+      "counts": [
+        30,
+        30
+      ],
+      "fallbacks": 0,
+      "sets": [
+        true,
+        true
+      ],
+      "fontScales": [
+        "0.7",
+        "0.7"
+      ],
+      "pathTextFits": true,
+      "overflow": false
+    },
+    "captions": [
+      {
+        "card": ".harbin-print",
+        "text": "Snow · Hospitality · Imagining a city",
+        "height": 395,
+        "captionBottom": 372,
+        "bottomPadding": 23,
+        "covered": [],
+        "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)"
+      },
+      {
+        "card": ".tianshui-print",
+        "text": "Food · Publicity · Local life",
+        "height": 389,
+        "captionBottom": 365,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+      }
+    ],
+    "selected": [
+      {
+        "city": "哈尔滨",
+        "word": "服务",
+        "expectedCount": 14,
+        "percent": "1.68",
+        "total": 835,
+        "result": "14 comments · showing 1–6",
+        "readout": "Harbin · service: 14 of 835 comments (1.68%)",
+        "selectedCity": "哈尔滨",
+        "commentsMatch": true,
+        "countMatches": true
+      },
+      {
+        "city": "天水",
+        "word": "麻辣烫",
+        "expectedCount": 331,
+        "percent": "11.87",
+        "total": 2789,
+        "result": "331 comments · showing 1–6",
+        "readout": "Tianshui · malatang: 331 of 2789 comments (11.87%)",
+        "selectedCity": "天水",
+        "commentsMatch": true,
+        "countMatches": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "Mia-Universe-1440-zh",
+    "home": {
+      "zoom": 1,
+      "fonts": "loaded",
+      "labels": [
+        {
+          "text": "首页",
+          "left": 49,
+          "right": 49,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 121.390625,
+            "y": 613,
+            "width": 146,
+            "height": 48,
+            "top": 613,
+            "right": 267.390625,
+            "bottom": 661,
+            "left": 121.390625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "关于我",
+          "left": 37,
+          "right": 37,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 221.765625,
+            "y": 360.25,
+            "width": 146,
+            "height": 48,
+            "top": 360.25,
+            "right": 367.765625,
+            "bottom": 408.25,
+            "left": 221.765625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "精选作品",
+          "left": 24,
+          "right": 24,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 485.578125,
+            "y": 204.03125,
+            "width": 144,
+            "height": 48,
+            "top": 204.03125,
+            "right": 629.578125,
+            "bottom": 252.03125,
+            "left": 485.578125
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "none"
+        },
+        {
+          "text": "作品档案",
+          "left": 25,
+          "right": 25,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 809.40625,
+            "y": 204.03125,
+            "width": 146,
+            "height": 48,
+            "top": 204.03125,
+            "right": 955.40625,
+            "bottom": 252.03125,
+            "left": 809.40625
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "私人空间",
+          "left": 25,
+          "right": 25,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 1072.21875,
+            "y": 360.25,
+            "width": 146,
+            "height": 48,
+            "top": 360.25,
+            "right": 1218.21875,
+            "bottom": 408.25,
+            "left": 1072.21875
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        },
+        {
+          "text": "联系我",
+          "left": 37,
+          "right": 37,
+          "top": 10.40625,
+          "bottom": 10.59375,
+          "box": {
+            "x": 1172.59375,
+            "y": 613,
+            "width": 146,
+            "height": 48,
+            "top": 613,
+            "right": 1318.59375,
+            "bottom": 661,
+            "left": 1172.59375
+          },
+          "font": "24px / 25.2px Georgia, serif",
+          "clip": "polygon(3% 0px, 96% 2%, 100% 17%, 97% 34%, 100% 56%, 97% 75%, 99% 91%, 4% 100%, 0px 84%, 3% 66%, 0px 48%, 3% 29%, 0px 13%)"
+        }
+      ],
+      "gap": 179.828125,
+      "overflow": false
+    },
+    "clouds": {
+      "ready": {
+        "language": "zh",
+        "width": 598,
+        "height": 970,
+        "factor": 0.7,
+        "words": 60
+      },
+      "counts": [
+        30,
+        30
+      ],
+      "fallbacks": 0,
+      "sets": [
+        true,
+        true
+      ],
+      "fontScales": [
+        "0.7",
+        "0.7"
+      ],
+      "pathTextFits": true,
+      "overflow": false
+    },
+    "captions": [
+      {
+        "card": ".harbin-print",
+        "text": "冰雪 · 待客 · 城市想象",
+        "height": 370,
+        "captionBottom": 346,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)"
+      },
+      {
+        "card": ".tianshui-print",
+        "text": "饮食 · 宣传 · 地方日常",
+        "height": 364,
+        "captionBottom": 340,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+      }
+    ],
+    "selected": [
+      {
+        "city": "哈尔滨",
+        "word": "服务",
+        "expectedCount": 14,
+        "percent": "1.68",
+        "total": 835,
+        "result": "找到 14 条评论 · 当前 1–6",
+        "readout": "哈尔滨 · 服务：14 条评论 / 835 条，占 1.68%",
+        "selectedCity": "哈尔滨",
+        "commentsMatch": true,
+        "countMatches": true
+      },
+      {
+        "city": "天水",
+        "word": "麻辣烫",
+        "expectedCount": 331,
+        "percent": "11.87",
+        "total": 2789,
+        "result": "找到 331 条评论 · 当前 1–6",
+        "readout": "天水 · 麻辣烫：331 条评论 / 2789 条，占 11.87%",
+        "selectedCity": "天水",
+        "commentsMatch": true,
+        "countMatches": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "Mia-Universe-375-en",
+    "home": {
+      "zoom": 1,
+      "fonts": "loaded",
+      "labels": [
+        {
+          "text": "Home",
+          "left": 16.25,
+          "right": 16.25,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 12.625,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 88.625,
+            "bottom": 349,
+            "left": 12.625
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "About",
+          "left": 16.46875,
+          "right": 16.484375,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 38.765625,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 114.765625,
+            "bottom": 263.765625,
+            "left": 38.765625
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "Selected Work",
+          "left": 12.625,
+          "right": 12.640625,
+          "top": 3,
+          "bottom": 4,
+          "box": {
+            "x": 100.203125,
+            "y": 167.09375,
+            "width": 84,
+            "height": 44,
+            "top": 167.09375,
+            "right": 184.203125,
+            "bottom": 211.09375,
+            "left": 100.203125
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "none"
+        },
+        {
+          "text": "Archive",
+          "left": 10.875,
+          "right": 10.890625,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 194.78125,
+            "y": 167.09375,
+            "width": 76,
+            "height": 44,
+            "top": 167.09375,
+            "right": 270.78125,
+            "bottom": 211.09375,
+            "left": 194.78125
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "Personal Space",
+          "left": 7.15625,
+          "right": 7.15625,
+          "top": 3,
+          "bottom": 4,
+          "box": {
+            "x": 260.21875,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 336.21875,
+            "bottom": 263.765625,
+            "left": 260.21875
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "Contact",
+          "left": 10.625,
+          "right": 10.640625,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 286.375,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 362.375,
+            "bottom": 349,
+            "left": 286.375
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        }
+      ],
+      "gap": 10.578125,
+      "overflow": false
+    },
+    "clouds": {
+      "ready": {
+        "language": "en",
+        "width": 316,
+        "height": 820,
+        "factor": 0.55,
+        "words": 60
+      },
+      "counts": [
+        30,
+        30
+      ],
+      "fallbacks": 0,
+      "sets": [
+        true,
+        true
+      ],
+      "fontScales": [
+        "0.55",
+        "0.55"
+      ],
+      "pathTextFits": true,
+      "overflow": false
+    },
+    "captions": [
+      {
+        "card": ".harbin-print",
+        "text": "Snow · Hospitality · Imagining a city",
+        "height": 420,
+        "captionBottom": 397,
+        "bottomPadding": 23,
+        "covered": [],
+        "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)"
+      },
+      {
+        "card": ".tianshui-print",
+        "text": "Food · Publicity · Local life",
+        "height": 389,
+        "captionBottom": 365,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+      }
+    ],
+    "selected": [
+      {
+        "city": "哈尔滨",
+        "word": "服务",
+        "expectedCount": 14,
+        "percent": "1.68",
+        "total": 835,
+        "result": "14 comments · showing 1–6",
+        "readout": "Harbin · service: 14 of 835 comments (1.68%)",
+        "selectedCity": "哈尔滨",
+        "commentsMatch": true,
+        "countMatches": true
+      },
+      {
+        "city": "天水",
+        "word": "麻辣烫",
+        "expectedCount": 331,
+        "percent": "11.87",
+        "total": 2789,
+        "result": "331 comments · showing 1–6",
+        "readout": "Tianshui · malatang: 331 of 2789 comments (11.87%)",
+        "selectedCity": "天水",
+        "commentsMatch": true,
+        "countMatches": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "Mia-Universe-375-zh",
+    "home": {
+      "zoom": 1,
+      "fonts": "loaded",
+      "labels": [
+        {
+          "text": "首页",
+          "left": 22,
+          "right": 22,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 12.625,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 88.625,
+            "bottom": 349,
+            "left": 12.625
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "关于我",
+          "left": 14,
+          "right": 14,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 38.765625,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 114.765625,
+            "bottom": 263.765625,
+            "left": 38.765625
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "精选作品",
+          "left": 10,
+          "right": 10,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 100.203125,
+            "y": 167.09375,
+            "width": 84,
+            "height": 44,
+            "top": 167.09375,
+            "right": 184.203125,
+            "bottom": 211.09375,
+            "left": 100.203125
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "none"
+        },
+        {
+          "text": "作品档案",
+          "left": 6,
+          "right": 6,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 194.78125,
+            "y": 167.09375,
+            "width": 76,
+            "height": 44,
+            "top": 167.09375,
+            "right": 270.78125,
+            "bottom": 211.09375,
+            "left": 194.78125
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "私人空间",
+          "left": 6,
+          "right": 6,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 260.21875,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 336.21875,
+            "bottom": 263.765625,
+            "left": 260.21875
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "联系我",
+          "left": 14,
+          "right": 14,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 286.375,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 362.375,
+            "bottom": 349,
+            "left": 286.375
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        }
+      ],
+      "gap": 10.578125,
+      "overflow": false
+    },
+    "clouds": {
+      "ready": {
+        "language": "zh",
+        "width": 316,
+        "height": 700,
+        "factor": 0.55,
+        "words": 60
+      },
+      "counts": [
+        30,
+        30
+      ],
+      "fallbacks": 0,
+      "sets": [
+        true,
+        true
+      ],
+      "fontScales": [
+        "0.55",
+        "0.55"
+      ],
+      "pathTextFits": true,
+      "overflow": false
+    },
+    "captions": [
+      {
+        "card": ".harbin-print",
+        "text": "冰雪 · 待客 · 城市想象",
+        "height": 370,
+        "captionBottom": 346,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)"
+      },
+      {
+        "card": ".tianshui-print",
+        "text": "饮食 · 宣传 · 地方日常",
+        "height": 364,
+        "captionBottom": 340,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+      }
+    ],
+    "selected": [
+      {
+        "city": "哈尔滨",
+        "word": "服务",
+        "expectedCount": 14,
+        "percent": "1.68",
+        "total": 835,
+        "result": "找到 14 条评论 · 当前 1–6",
+        "readout": "哈尔滨 · 服务：14 条评论 / 835 条，占 1.68%",
+        "selectedCity": "哈尔滨",
+        "commentsMatch": true,
+        "countMatches": true
+      },
+      {
+        "city": "天水",
+        "word": "麻辣烫",
+        "expectedCount": 331,
+        "percent": "11.87",
+        "total": 2789,
+        "result": "找到 331 条评论 · 当前 1–6",
+        "readout": "天水 · 麻辣烫：331 条评论 / 2789 条，占 11.87%",
+        "selectedCity": "天水",
+        "commentsMatch": true,
+        "countMatches": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "Mia-Universe-320-en",
+    "home": {
+      "zoom": 1,
+      "fonts": "loaded",
+      "labels": [
+        {
+          "text": "Home",
+          "left": 16.25,
+          "right": 16.25,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 12,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 88,
+            "bottom": 349,
+            "left": 12
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "About",
+          "left": 16.46875,
+          "right": 16.484375,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 33,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 109,
+            "bottom": 263.765625,
+            "left": 33
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "Selected Work",
+          "left": 6.640625,
+          "right": 6.625,
+          "top": 3,
+          "bottom": 4,
+          "box": {
+            "x": 82,
+            "y": 167.09375,
+            "width": 72,
+            "height": 44,
+            "top": 167.09375,
+            "right": 154,
+            "bottom": 211.09375,
+            "left": 82
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "none"
+        },
+        {
+          "text": "Archive",
+          "left": 6.875,
+          "right": 6.890625,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 167.984375,
+            "y": 167.09375,
+            "width": 68,
+            "height": 44,
+            "top": 167.09375,
+            "right": 235.984375,
+            "bottom": 211.09375,
+            "left": 167.984375
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "Personal Space",
+          "left": 7.15625,
+          "right": 7.15625,
+          "top": 3,
+          "bottom": 4,
+          "box": {
+            "x": 210.984375,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 286.984375,
+            "bottom": 263.765625,
+            "left": 210.984375
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "Contact",
+          "left": 10.625,
+          "right": 10.640625,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 232,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 308,
+            "bottom": 349,
+            "left": 232
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        }
+      ],
+      "gap": 13.984375,
+      "overflow": false
+    },
+    "clouds": {
+      "ready": {
+        "language": "en",
+        "width": 261,
+        "height": 1120,
+        "factor": 0.15,
+        "words": 60
+      },
+      "counts": [
+        30,
+        30
+      ],
+      "fallbacks": 0,
+      "sets": [
+        true,
+        true
+      ],
+      "fontScales": [
+        "0.15",
+        "0.15"
+      ],
+      "pathTextFits": true,
+      "overflow": false
+    },
+    "captions": [
+      {
+        "card": ".harbin-print",
+        "text": "Snow · Hospitality · Imagining a city",
+        "height": 420,
+        "captionBottom": 397,
+        "bottomPadding": 23,
+        "covered": [],
+        "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)"
+      },
+      {
+        "card": ".tianshui-print",
+        "text": "Food · Publicity · Local life",
+        "height": 389,
+        "captionBottom": 365,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+      }
+    ],
+    "selected": [
+      {
+        "city": "哈尔滨",
+        "word": "服务",
+        "expectedCount": 14,
+        "percent": "1.68",
+        "total": 835,
+        "result": "14 comments · showing 1–6",
+        "readout": "Harbin · service: 14 of 835 comments (1.68%)",
+        "selectedCity": "哈尔滨",
+        "commentsMatch": true,
+        "countMatches": true
+      },
+      {
+        "city": "天水",
+        "word": "麻辣烫",
+        "expectedCount": 331,
+        "percent": "11.87",
+        "total": 2789,
+        "result": "331 comments · showing 1–6",
+        "readout": "Tianshui · malatang: 331 of 2789 comments (11.87%)",
+        "selectedCity": "天水",
+        "commentsMatch": true,
+        "countMatches": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "Mia-Universe-320-zh",
+    "home": {
+      "zoom": 1,
+      "fonts": "loaded",
+      "labels": [
+        {
+          "text": "首页",
+          "left": 22,
+          "right": 22,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 12,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 88,
+            "bottom": 349,
+            "left": 12
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "关于我",
+          "left": 14,
+          "right": 14,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 33,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 109,
+            "bottom": 263.765625,
+            "left": 33
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "精选作品",
+          "left": 12,
+          "right": 12,
+          "top": 3,
+          "bottom": 4,
+          "box": {
+            "x": 82,
+            "y": 167.09375,
+            "width": 72,
+            "height": 44,
+            "top": 167.09375,
+            "right": 154,
+            "bottom": 211.09375,
+            "left": 82
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "none"
+        },
+        {
+          "text": "作品档案",
+          "left": 10,
+          "right": 10,
+          "top": 3,
+          "bottom": 4,
+          "box": {
+            "x": 167.984375,
+            "y": 167.09375,
+            "width": 68,
+            "height": 44,
+            "top": 167.09375,
+            "right": 235.984375,
+            "bottom": 211.09375,
+            "left": 167.984375
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "私人空间",
+          "left": 6,
+          "right": 6,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 210.984375,
+            "y": 219.765625,
+            "width": 76,
+            "height": 44,
+            "top": 219.765625,
+            "right": 286.984375,
+            "bottom": 263.765625,
+            "left": 210.984375
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        },
+        {
+          "text": "联系我",
+          "left": 14,
+          "right": 14,
+          "top": 12,
+          "bottom": 13,
+          "box": {
+            "x": 232,
+            "y": 305,
+            "width": 76,
+            "height": 44,
+            "top": 305,
+            "right": 308,
+            "bottom": 349,
+            "left": 232
+          },
+          "font": "16px / 18px Georgia, serif",
+          "clip": "polygon(4% 0px, 97% 2%, 100% 20%, 97% 45%, 100% 75%, 97% 96%, 3% 100%, 0px 78%, 3% 55%, 0px 20%)"
+        }
+      ],
+      "gap": 13.984375,
+      "overflow": false
+    },
+    "clouds": {
+      "ready": {
+        "language": "zh",
+        "width": 261,
+        "height": 700,
+        "factor": 0.25,
+        "words": 60
+      },
+      "counts": [
+        30,
+        30
+      ],
+      "fallbacks": 0,
+      "sets": [
+        true,
+        true
+      ],
+      "fontScales": [
+        "0.25",
+        "0.25"
+      ],
+      "pathTextFits": true,
+      "overflow": false
+    },
+    "captions": [
+      {
+        "card": ".harbin-print",
+        "text": "冰雪 · 待客 · 城市想象",
+        "height": 370,
+        "captionBottom": 346,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)"
+      },
+      {
+        "card": ".tianshui-print",
+        "text": "饮食 · 宣传 · 地方日常",
+        "height": 364,
+        "captionBottom": 340,
+        "bottomPadding": 24,
+        "covered": [],
+        "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+      }
+    ],
+    "selected": [
+      {
+        "city": "哈尔滨",
+        "word": "服务",
+        "expectedCount": 14,
+        "percent": "1.68",
+        "total": 835,
+        "result": "找到 14 条评论 · 当前 1–6",
+        "readout": "哈尔滨 · 服务：14 条评论 / 835 条，占 1.68%",
+        "selectedCity": "哈尔滨",
+        "commentsMatch": true,
+        "countMatches": true
+      },
+      {
+        "city": "天水",
+        "word": "麻辣烫",
+        "expectedCount": 331,
+        "percent": "11.87",
+        "total": 2789,
+        "result": "找到 331 条评论 · 当前 1–6",
+        "readout": "天水 · 麻辣烫：331 条评论 / 2789 条，占 11.87%",
+        "selectedCity": "天水",
+        "commentsMatch": true,
+        "countMatches": true
+      }
+    ],
+    "errors": []
+  }
+]

@@ -65,7 +65,8 @@ function startFollowing(){
  photo.dataset.mode='approved-static-original';photo.dataset.direction='center';
  photo.dataset.followX=photo.dataset.followY='0';photo.dataset.followState='static';
  // Preserve responsive composition, without pointer handlers or animation loops.
- const measure=()=>{layoutMiaArc(scene);layoutMiaClouds(scene);};
+ const measure=()=>{layoutMiaArc(scene);layoutMiaClouds(scene);const label=scene.querySelector('.sticker-work span');if(label){const context=document.createElement('canvas').getContext('2d'),style=getComputedStyle(label);context.font=style.font;const width=Math.ceil(context.measureText(label.textContent.trim()).width)+48;label.style.setProperty('--work-paper-width',width+'px');label.dataset.measuredFont=style.font;}};
  const observer=new ResizeObserver(measure);observer.observe(scene);measure();
- disposeFollow=()=>{observer.disconnect();photo.style.removeProperty('--mia-follow');};
+ document.fonts.ready.then(()=>{if(scene.isConnected)measure()});document.fonts.addEventListener('loadingdone',measure);
+ disposeFollow=()=>{observer.disconnect();document.fonts.removeEventListener('loadingdone',measure);photo.style.removeProperty('--mia-follow');};
 }

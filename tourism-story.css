@@ -6,3 +6,17 @@ body .comment-gloss p{font-size:17px!important;line-height:1.7!important;margin:
 .cloud-fallback{max-width:100%;white-space:normal;min-height:44px;overflow-wrap:anywhere}
 .word-cloud:has(.cloud-fallback){display:flex;flex-wrap:wrap;align-content:flex-start;gap:8px;padding:8px;box-sizing:border-box}
 .annual-total>span{display:block}
+/* The original 330px cards cropped captions after shared prose type increased. */
+body .hero-art{overflow:visible!important;margin-bottom:0!important;min-height:0}
+body .hero-art .city-print{height:auto;min-height:360px;padding-bottom:24px;overflow:visible}
+body .hero-art .city-print p{font-size:18px!important;line-height:1.4!important;letter-spacing:.01em;max-width:100%;margin:14px 0 0;position:static;overflow-wrap:normal}
+body .hero-art .harbin-print p{max-width:145px}
+@media(max-width:700px){body .hero-art .harbin-print p{max-width:125px}}
+/* SVG text itself forms the masks. No list, pills, clipped silhouette or bitmap. */
+.word-cloud.mia-shaped-cloud{display:block!important;width:100%;max-width:none;height:auto!important;overflow:visible!important;margin:12px 0}
+.mia-shaped-cloud svg{display:block;width:100%;max-width:600px;margin-inline:auto;height:auto;overflow:visible}
+.cloud-keyword{cursor:pointer;outline:none}
+.cloud-keyword text{font-family:Arial,"Microsoft YaHei",sans-serif;pointer-events:none}
+.cloud-keyword:focus rect,.cloud-keyword:hover rect{fill:#fbf7ee66;stroke:var(--brand-brown);stroke-width:1;stroke-dasharray:3 3}
+@media(max-width:700px){.cloud-grid{grid-template-columns:minmax(0,1fr)!important}.cloud-card{min-width:0}.word-cloud.mia-shaped-cloud{width:calc(100% + 22px);margin-inline:-11px}}
+@media(max-width:350px){body .figure-toolbar{display:flex!important;flex-wrap:wrap!important;min-width:0}.segmented{width:100%;max-width:100%;flex-wrap:wrap;box-sizing:border-box}.segmented button{min-width:0;flex:1 1 110px;white-space:normal;line-height:1.35!important}}
