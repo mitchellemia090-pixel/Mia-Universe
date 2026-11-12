@@ -1,0 +1,40 @@
+[
+  {
+    "width": 1440,
+    "hover": {
+      "year": "2013",
+      "insight": "In 2013, domestic trips were 54.3% of the 2019 total and nominal spending was 45.9%.",
+      "title": "2013: 32.62 (100 million trips)",
+      "quarterTitles": [
+        "Q1: 12.16 (100 million trips)",
+        "Q2: 11.68 (100 million trips)",
+        "Q3: 12.90 (100 million trips)",
+        "Q4: 12.17 (100 million trips)"
+      ]
+    },
+    "cloud": {
+      "count": 60,
+      "clipped": []
+    },
+    "cloudReadout": "Harbin · service: 14 comments (1.68%). Select to read the source comments."
+  },
+  {
+    "width": 375,
+    "hover": {
+      "year": "2013",
+      "insight": "In 2013, domestic trips were 54.3% of the 2019 total and nominal spending was 45.9%.",
+      "title": "2013: 32.62 (100 million trips)",
+      "quarterTitles": [
+        "Q1: 12.16 (100 million trips)",
+        "Q2: 11.68 (100 million trips)",
+        "Q3: 12.90 (100 million trips)",
+        "Q4: 12.17 (100 million trips)"
+      ]
+    },
+    "cloud": {
+      "count": 60,
+      "clipped": []
+    },
+    "cloudReadout": "Harbin · service: 14 comments (1.68%). Select to read the source comments."
+  }
+]

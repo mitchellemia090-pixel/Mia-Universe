@@ -1,0 +1,3098 @@
+[
+  {
+    "name": "local-1440-en",
+    "kind": "tourism",
+    "matching": [
+      {
+        "query": "service",
+        "count": "65 comments · showing 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "服务",
+        "count": "65 comments · showing 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "malatang",
+        "count": "337 comments · showing 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 6
+      },
+      {
+        "query": "麻辣烫",
+        "count": "337 comments · showing 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 6
+      },
+      {
+        "query": "promotion",
+        "count": "70 comments · showing 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "宣传",
+        "count": "70 comments · showing 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 6
+      }
+    ],
+    "empty": "No comments match these filters. Try another keyword or clear the filters.",
+    "exactCloud": {
+      "count": "14 comments · showing 1–6",
+      "query": "service",
+      "note": "Exact word-cloud matches: service. You can further filter by topic and video. Edit the search text to switch to full-text search."
+    },
+    "switched": "zh-CN",
+    "checks": [
+      {
+        "phase": "initial",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2013",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2014",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2015",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2016",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2017",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2018",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2019",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2020",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2021",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2022",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2023",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "index",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "quarter-growth",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "equal-weights",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "annual-spending",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "annual-trips",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-both",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-both",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-service",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-服务",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-malatang",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-麻辣烫",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-promotion",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-宣传",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "empty-results",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-unmatched",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-food",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-climate",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-culture",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-service",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-cost",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-media",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H1",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H2",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H3",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T1",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T2",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T3",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "word-cloud-click",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "name": "local-1440-zh",
+    "kind": "tourism",
+    "matching": [
+      {
+        "query": "service",
+        "count": "找到 65 条评论 · 当前 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "服务",
+        "count": "找到 65 条评论 · 当前 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "malatang",
+        "count": "找到 337 条评论 · 当前 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 0
+      },
+      {
+        "query": "麻辣烫",
+        "count": "找到 337 条评论 · 当前 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 0
+      },
+      {
+        "query": "promotion",
+        "count": "找到 70 条评论 · 当前 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "宣传",
+        "count": "找到 70 条评论 · 当前 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 0
+      }
+    ],
+    "empty": "没有符合这些条件的评论。可以更换关键词或清除筛选。",
+    "exactCloud": {
+      "count": "找到 14 条评论 · 当前 1–6",
+      "query": "服务",
+      "note": "词云精确匹配：「服务」；下方结果可继续按主题与视频筛选。手动修改关键词可切换为全文搜索。"
+    },
+    "switched": "en",
+    "checks": [
+      {
+        "phase": "initial",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2013",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2014",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2015",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2016",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2017",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2018",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2019",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2020",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2021",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2022",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2023",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "index",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "quarter-growth",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "equal-weights",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "annual-spending",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "annual-trips",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-天水",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-天水",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-both",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-both",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-service",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-服务",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-malatang",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-麻辣烫",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-promotion",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-宣传",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "empty-results",
+        "chineseTextNodes": 527,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-天水",
+        "chineseTextNodes": 551,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-unmatched",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-food",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-climate",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-culture",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-service",
+        "chineseTextNodes": 561,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-cost",
+        "chineseTextNodes": 559,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-media",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H1",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H2",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H3",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T1",
+        "chineseTextNodes": 551,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T2",
+        "chineseTextNodes": 550,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T3",
+        "chineseTextNodes": 550,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "word-cloud-click",
+        "chineseTextNodes": 559,
+        "chineseAttributes": 145,
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "name": "local-375-en",
+    "kind": "tourism",
+    "matching": [
+      {
+        "query": "service",
+        "count": "65 comments · showing 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "服务",
+        "count": "65 comments · showing 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "malatang",
+        "count": "337 comments · showing 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 6
+      },
+      {
+        "query": "麻辣烫",
+        "count": "337 comments · showing 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 6
+      },
+      {
+        "query": "promotion",
+        "count": "70 comments · showing 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "宣传",
+        "count": "70 comments · showing 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 6
+      }
+    ],
+    "empty": "No comments match these filters. Try another keyword or clear the filters.",
+    "exactCloud": {
+      "count": "14 comments · showing 1–6",
+      "query": "service",
+      "note": "Exact word-cloud matches: service. You can further filter by topic and video. Edit the search text to switch to full-text search."
+    },
+    "switched": "zh-CN",
+    "checks": [
+      {
+        "phase": "initial",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2013",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2014",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2015",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2016",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2017",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2018",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2019",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2020",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2021",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2022",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2023",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "index",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "quarter-growth",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "equal-weights",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "annual-spending",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "annual-trips",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-both",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-both",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-service",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-服务",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-malatang",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-麻辣烫",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-promotion",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-宣传",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "empty-results",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-unmatched",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-food",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-climate",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-culture",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-service",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-cost",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-media",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H1",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H2",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H3",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T1",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T2",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T3",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "word-cloud-click",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "name": "local-375-zh",
+    "kind": "tourism",
+    "matching": [
+      {
+        "query": "service",
+        "count": "找到 65 条评论 · 当前 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "服务",
+        "count": "找到 65 条评论 · 当前 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "malatang",
+        "count": "找到 337 条评论 · 当前 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 0
+      },
+      {
+        "query": "麻辣烫",
+        "count": "找到 337 条评论 · 当前 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 0
+      },
+      {
+        "query": "promotion",
+        "count": "找到 70 条评论 · 当前 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "宣传",
+        "count": "找到 70 条评论 · 当前 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 0
+      }
+    ],
+    "empty": "没有符合这些条件的评论。可以更换关键词或清除筛选。",
+    "exactCloud": {
+      "count": "找到 14 条评论 · 当前 1–6",
+      "query": "服务",
+      "note": "词云精确匹配：「服务」；下方结果可继续按主题与视频筛选。手动修改关键词可切换为全文搜索。"
+    },
+    "switched": "en",
+    "checks": [
+      {
+        "phase": "initial",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2013",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2014",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2015",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2016",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2017",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2018",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2019",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2020",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2021",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2022",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2023",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "index",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "quarter-growth",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "equal-weights",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "annual-spending",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "annual-trips",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-天水",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-天水",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-both",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-both",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-service",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-服务",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-malatang",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-麻辣烫",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-promotion",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-宣传",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "empty-results",
+        "chineseTextNodes": 527,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-天水",
+        "chineseTextNodes": 551,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-unmatched",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-food",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-climate",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-culture",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-service",
+        "chineseTextNodes": 561,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-cost",
+        "chineseTextNodes": 559,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-media",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H1",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H2",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H3",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T1",
+        "chineseTextNodes": 551,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T2",
+        "chineseTextNodes": 550,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T3",
+        "chineseTextNodes": 550,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "word-cloud-click",
+        "chineseTextNodes": 559,
+        "chineseAttributes": 145,
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "name": "Mia-Universe-1440-en",
+    "kind": "tourism",
+    "matching": [
+      {
+        "query": "service",
+        "count": "65 comments · showing 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "服务",
+        "count": "65 comments · showing 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "malatang",
+        "count": "337 comments · showing 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 6
+      },
+      {
+        "query": "麻辣烫",
+        "count": "337 comments · showing 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 6
+      },
+      {
+        "query": "promotion",
+        "count": "70 comments · showing 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "宣传",
+        "count": "70 comments · showing 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 6
+      }
+    ],
+    "empty": "No comments match these filters. Try another keyword or clear the filters.",
+    "exactCloud": {
+      "count": "14 comments · showing 1–6",
+      "query": "service",
+      "note": "Exact word-cloud matches: service. You can further filter by topic and video. Edit the search text to switch to full-text search."
+    },
+    "switched": "zh-CN",
+    "checks": [
+      {
+        "phase": "initial",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2013",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2014",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2015",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2016",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2017",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2018",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2019",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2020",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2021",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2022",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2023",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "index",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "quarter-growth",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "equal-weights",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "annual-spending",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "annual-trips",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-both",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-both",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-service",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-服务",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-malatang",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-麻辣烫",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-promotion",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-宣传",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "empty-results",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-unmatched",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-food",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-climate",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-culture",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-service",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-cost",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-media",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H1",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H2",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H3",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T1",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T2",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T3",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "word-cloud-click",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "name": "Mia-Universe-1440-zh",
+    "kind": "tourism",
+    "matching": [
+      {
+        "query": "service",
+        "count": "找到 65 条评论 · 当前 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "服务",
+        "count": "找到 65 条评论 · 当前 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "malatang",
+        "count": "找到 337 条评论 · 当前 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 0
+      },
+      {
+        "query": "麻辣烫",
+        "count": "找到 337 条评论 · 当前 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 0
+      },
+      {
+        "query": "promotion",
+        "count": "找到 70 条评论 · 当前 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "宣传",
+        "count": "找到 70 条评论 · 当前 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 0
+      }
+    ],
+    "empty": "没有符合这些条件的评论。可以更换关键词或清除筛选。",
+    "exactCloud": {
+      "count": "找到 14 条评论 · 当前 1–6",
+      "query": "服务",
+      "note": "词云精确匹配：「服务」；下方结果可继续按主题与视频筛选。手动修改关键词可切换为全文搜索。"
+    },
+    "switched": "en",
+    "checks": [
+      {
+        "phase": "initial",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2013",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2014",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2015",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2016",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2017",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2018",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2019",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2020",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2021",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2022",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2023",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "index",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "quarter-growth",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "equal-weights",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "annual-spending",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "annual-trips",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-天水",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-天水",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-both",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-both",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-service",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-服务",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-malatang",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-麻辣烫",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-promotion",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-宣传",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "empty-results",
+        "chineseTextNodes": 527,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-天水",
+        "chineseTextNodes": 551,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-unmatched",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-food",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-climate",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-culture",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-service",
+        "chineseTextNodes": 561,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-cost",
+        "chineseTextNodes": 559,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-media",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H1",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H2",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H3",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T1",
+        "chineseTextNodes": 551,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T2",
+        "chineseTextNodes": 550,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T3",
+        "chineseTextNodes": 550,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "word-cloud-click",
+        "chineseTextNodes": 559,
+        "chineseAttributes": 145,
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "name": "Mia-Universe-375-en",
+    "kind": "tourism",
+    "matching": [
+      {
+        "query": "service",
+        "count": "65 comments · showing 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "服务",
+        "count": "65 comments · showing 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "malatang",
+        "count": "337 comments · showing 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 6
+      },
+      {
+        "query": "麻辣烫",
+        "count": "337 comments · showing 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 6
+      },
+      {
+        "query": "promotion",
+        "count": "70 comments · showing 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 6
+      },
+      {
+        "query": "宣传",
+        "count": "70 comments · showing 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 6
+      }
+    ],
+    "empty": "No comments match these filters. Try another keyword or clear the filters.",
+    "exactCloud": {
+      "count": "14 comments · showing 1–6",
+      "query": "service",
+      "note": "Exact word-cloud matches: service. You can further filter by topic and video. Edit the search text to switch to full-text search."
+    },
+    "switched": "zh-CN",
+    "checks": [
+      {
+        "phase": "initial",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2013",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2014",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2015",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2016",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2017",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2018",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2019",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2020",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2021",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2022",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "year-2023",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "index",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "quarter-growth",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-total",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-daily",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "equal-weights",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "annual-spending",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "annual-trips",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-both",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-both",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-service",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-服务",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-malatang",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-麻辣烫",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-promotion",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "search-宣传",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "empty-results",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-哈尔滨",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-天水",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-unmatched",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-food",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-climate",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-culture",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-service",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-cost",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-media",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-all",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H1",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H2",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H3",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T1",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T2",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T3",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      },
+      {
+        "phase": "word-cloud-click",
+        "chineseTextNodes": 0,
+        "chineseAttributes": 0,
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "name": "Mia-Universe-375-zh",
+    "kind": "tourism",
+    "matching": [
+      {
+        "query": "service",
+        "count": "找到 65 条评论 · 当前 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "服务",
+        "count": "找到 65 条评论 · 当前 1–6",
+        "expected": 65,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "malatang",
+        "count": "找到 337 条评论 · 当前 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 0
+      },
+      {
+        "query": "麻辣烫",
+        "count": "找到 337 条评论 · 当前 1–6",
+        "expected": 337,
+        "marks": 10,
+        "glosses": 0
+      },
+      {
+        "query": "promotion",
+        "count": "找到 70 条评论 · 当前 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 0
+      },
+      {
+        "query": "宣传",
+        "count": "找到 70 条评论 · 当前 1–6",
+        "expected": 70,
+        "marks": 6,
+        "glosses": 0
+      }
+    ],
+    "empty": "没有符合这些条件的评论。可以更换关键词或清除筛选。",
+    "exactCloud": {
+      "count": "找到 14 条评论 · 当前 1–6",
+      "query": "服务",
+      "note": "词云精确匹配：「服务」；下方结果可继续按主题与视频筛选。手动修改关键词可切换为全文搜索。"
+    },
+    "switched": "en",
+    "checks": [
+      {
+        "phase": "initial",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2013",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2014",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2015",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2016",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2017",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2018",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2019",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2020",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2021",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2022",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "year-2023",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "index",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "quarter-growth",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-0-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-1-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-total",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "period-2-daily",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "equal-weights",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "annual-spending",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "annual-trips",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-天水",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-天水",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-both",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "cloud-focus-both",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-service",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-服务",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-malatang",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-麻辣烫",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-promotion",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "search-宣传",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "empty-results",
+        "chineseTextNodes": 527,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-哈尔滨",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#cityFilter-天水",
+        "chineseTextNodes": 551,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-unmatched",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-food",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-climate",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-culture",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-service",
+        "chineseTextNodes": 561,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-cost",
+        "chineseTextNodes": 559,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#topicFilter-media",
+        "chineseTextNodes": 558,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-all",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H1",
+        "chineseTextNodes": 560,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H2",
+        "chineseTextNodes": 556,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-H3",
+        "chineseTextNodes": 555,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T1",
+        "chineseTextNodes": 551,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T2",
+        "chineseTextNodes": 550,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "#sourceFilter-T3",
+        "chineseTextNodes": 550,
+        "chineseAttributes": 145,
+        "overflow": false
+      },
+      {
+        "phase": "word-cloud-click",
+        "chineseTextNodes": 559,
+        "chineseAttributes": 145,
+        "overflow": false
+      }
+    ]
+  }
+]

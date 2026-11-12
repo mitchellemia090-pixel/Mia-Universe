@@ -1,0 +1,8 @@
+/* Reading support for source-language comments; leave the established layout intact. */
+.comment-gloss{margin-block:12px 18px;padding-left:14px;border-left:2px solid var(--brand-blue)}
+.comment-gloss>strong{font:600 14px/1.5 Arial,sans-serif}
+body .comment-gloss p{font-size:17px!important;line-height:1.7!important;margin:8px 0 0}
+.dictionary-row li{overflow-wrap:anywhere}
+.cloud-fallback{max-width:100%;white-space:normal;min-height:44px;overflow-wrap:anywhere}
+.word-cloud:has(.cloud-fallback){display:flex;flex-wrap:wrap;align-content:flex-start;gap:8px;padding:8px;box-sizing:border-box}
+.annual-total>span{display:block}

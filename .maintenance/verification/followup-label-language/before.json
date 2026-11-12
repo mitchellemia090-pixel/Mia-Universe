@@ -1,0 +1,328 @@
+{
+  "text": [
+    {
+      "tag": "title",
+      "id": "",
+      "text": "国内出游人次，2013至2023；当前2023年48.91亿人次。可用下方年份滑块读取全部值。"
+    },
+    {
+      "tag": "text",
+      "id": "",
+      "text": "亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2013：32.62 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2014：36.11 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2015：40.00 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2016：44.40 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2017：50.01 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2018：55.39 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2019：60.10 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2020：28.79 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2021：32.46 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2022：25.30 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2023：48.91 亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "游客出游总花费，2013至2023；当前2023年4.91万亿元。可用下方年份滑块读取全部值。"
+    },
+    {
+      "tag": "text",
+      "id": "",
+      "text": "万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2013：2.63 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2014：3.03 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2015：3.42 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2016：3.94 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2017：4.57 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2018：5.13 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2019：5.73 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2020：2.23 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2021：2.92 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2022：2.04 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2023：4.91 万亿元"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "2023年季度出游人次：Q1 12.16；Q2 11.68；Q3 12.9；Q4 12.17"
+    },
+    {
+      "tag": "text",
+      "id": "",
+      "text": "亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "Q1：12.16亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "Q2：11.68亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "Q3：12.90亿人次"
+    },
+    {
+      "tag": "title",
+      "id": "",
+      "text": "Q4：12.17亿人次"
+    },
+    {
+      "tag": "NOSCRIPT",
+      "id": "",
+      "text": "<p class=\"wrap\">请启用 JavaScript 以使用图表、筛选与数据下载。报道正文仍可阅读。</p>"
+    }
+  ],
+  "attributes": [
+    {
+      "tag": "A",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "返回报道开头"
+    },
+    {
+      "tag": "NAV",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "报道章节"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "哈尔滨与天水的编辑插画，不代表数据"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "全国趋势显示方式"
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "国内出游人次，2013至2023；当前2023年48.91亿人次。可用下方年份滑块读取全部值。"
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "游客出游总花费，2013至2023；当前2023年4.91万亿元。可用下方年份滑块读取全部值。"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "季度指标"
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "2023年季度出游人次：Q1 12.16；Q2 11.68；Q3 12.9；Q4 12.17"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "选择统计期"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "假期数据换算方式"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "词云显示城市"
+    },
+    {
+      "tag": "DIV",
+      "id": "cloudHarbin",
+      "attribute": "aria-label",
+      "text": "哈尔滨高频词，点击或按回车查看相关评论"
+    },
+    {
+      "tag": "DIV",
+      "id": "cloudTianshui",
+      "attribute": "aria-label",
+      "text": "天水高频词，点击或按回车查看相关评论"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "主题比较加权方式"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "查看饮食与味道相关评论。哈尔滨12.7%，天水17.5%"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "查看冰雪与气候相关评论。哈尔滨9.3%，天水2.4%"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "查看文化与城市空间相关评论。哈尔滨5.1%，天水12.2%"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "查看待客与服务相关评论。哈尔滨4.4%，天水3.3%"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "查看价格与消费相关评论。哈尔滨4.3%，天水10.5%"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "查看流量与宣传相关评论。哈尔滨2.2%，天水15.0%"
+    },
+    {
+      "tag": "INPUT",
+      "id": "searchFilter",
+      "attribute": "placeholder",
+      "text": "搜索：服务、麻辣烫、宣传…"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "attribute": "aria-label",
+      "text": "全年旅游指标"
+    }
+  ],
+  "headings": [
+    "When a cityis suddenlyseen.",
+    "Going viral amid a recovery.",
+    "Eleven years of setting off again",
+    "Faster growthdoes not mean a larger total.",
+    "Quarterly trips in 2023",
+    "Shared attention, different time scales.",
+    "Harbin, Spring Festival holiday",
+    "Spring Festival is a starting point",
+    "Malatang enters the spotlight",
+    "Three days of Qingming",
+    "What are people discussing on the other side of the screen?",
+    "Two cities, two landscapes of words.",
+    "Discussion across two cities",
+    "Open the comments and read.",
+    "After going viral,where does attention go?",
+    "The annual market expanded,but sustained attention needs a finer scale.",
+    "Extend the observation window to a year",
+    "Scale is not the same as additional benefit.",
+    "Parking and accommodation need to receive visitors.",
+    "Behind the streets is human labour.",
+    "How can attention last?How does a city receive its visitors?",
+    "Public sources",
+    "Read original in Chinese"
+  ]
+}

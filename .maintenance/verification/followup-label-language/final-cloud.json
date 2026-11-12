@@ -1,0 +1,258 @@
+[
+  {
+    "prefix": "local",
+    "width": 1440,
+    "lang": "en",
+    "readout": "Harbin · service: 14 comments (1.68%). Select to read the source comments.",
+    "checks": [
+      {
+        "city": "哈尔滨",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      },
+      {
+        "city": "天水",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      },
+      {
+        "city": "both",
+        "wordCount": 60,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      }
+    ]
+  },
+  {
+    "prefix": "local",
+    "width": 1440,
+    "lang": "zh",
+    "readout": "哈尔滨 · 服务：14 条评论 / 835 条，占 1.68%",
+    "checks": [
+      {
+        "city": "哈尔滨",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      },
+      {
+        "city": "天水",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      },
+      {
+        "city": "both",
+        "wordCount": 60,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      }
+    ]
+  },
+  {
+    "prefix": "local",
+    "width": 375,
+    "lang": "en",
+    "readout": "Harbin · service: 14 comments (1.68%). Select to read the source comments.",
+    "checks": [
+      {
+        "city": "哈尔滨",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      },
+      {
+        "city": "天水",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      },
+      {
+        "city": "both",
+        "wordCount": 60,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      }
+    ]
+  },
+  {
+    "prefix": "local",
+    "width": 375,
+    "lang": "zh",
+    "readout": "哈尔滨 · 服务：14 条评论，占 1.68%",
+    "checks": [
+      {
+        "city": "哈尔滨",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      },
+      {
+        "city": "天水",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      },
+      {
+        "city": "both",
+        "wordCount": 60,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      }
+    ]
+  },
+  {
+    "prefix": "Mia-Universe",
+    "width": 1440,
+    "lang": "en",
+    "readout": "Harbin · service: 14 comments (1.68%). Select to read the source comments.",
+    "checks": [
+      {
+        "city": "哈尔滨",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      },
+      {
+        "city": "天水",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      },
+      {
+        "city": "both",
+        "wordCount": 60,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      }
+    ]
+  },
+  {
+    "prefix": "Mia-Universe",
+    "width": 1440,
+    "lang": "zh",
+    "readout": "哈尔滨 · 服务：14 条评论 / 835 条，占 1.68%",
+    "checks": [
+      {
+        "city": "哈尔滨",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      },
+      {
+        "city": "天水",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      },
+      {
+        "city": "both",
+        "wordCount": 60,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      }
+    ]
+  },
+  {
+    "prefix": "Mia-Universe",
+    "width": 375,
+    "lang": "en",
+    "readout": "Harbin · service: 14 comments (1.68%). Select to read the source comments.",
+    "checks": [
+      {
+        "city": "哈尔滨",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      },
+      {
+        "city": "天水",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      },
+      {
+        "city": "both",
+        "wordCount": 60,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "Search: service, malatang, promotion…",
+        "chineseTextNodes": 0
+      }
+    ]
+  },
+  {
+    "prefix": "Mia-Universe",
+    "width": 375,
+    "lang": "zh",
+    "readout": "哈尔滨 · 服务：14 条评论，占 1.68%",
+    "checks": [
+      {
+        "city": "哈尔滨",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      },
+      {
+        "city": "天水",
+        "wordCount": 30,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      },
+      {
+        "city": "both",
+        "wordCount": 60,
+        "clipped": [],
+        "overflow": false,
+        "placeholder": "搜索：服务、麻辣烫、宣传…",
+        "chineseTextNodes": 560
+      }
+    ]
+  }
+]

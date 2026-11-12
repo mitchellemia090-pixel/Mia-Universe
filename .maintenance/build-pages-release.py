@@ -90,7 +90,7 @@ snapshots=[]
 for p in source.rglob('*'):
  if not p.is_file() or p.suffix not in {'.html','.css','.js','.json','.webp'}:continue
  rel=p.relative_to(source).as_posix()
- if (p.parent==source and p.name in {'index.html','app.js','navigation.js','universe.css','layout-repair.css','reading-layout.css','work-reader.js'}) or rel in {'projects/When_a_City_Goes_Viral.html','projects/Zine_Ideas_in_Motion.html'} or (rel.startswith('works-content/') and p.suffix in {'.js','.json'} and 'source-media/web/' in p.read_text(encoding='utf8')) or (p.suffix=='.webp' and (p.parent==source/'assets' or p.parent==source/'assets/home-refinement')):
+ if (p.parent==source and p.name in {'index.html','app.js','navigation.js','universe.css','layout-repair.css','reading-layout.css','work-reader.js','tourism-story.js','tourism-i18n.js','tourism-story.css'}) or rel in {'projects/When_a_City_Goes_Viral.html','projects/Zine_Ideas_in_Motion.html'} or (rel.startswith('works-content/') and p.suffix in {'.js','.json'} and 'source-media/web/' in p.read_text(encoding='utf8')) or (p.suffix=='.webp' and (p.parent==source/'assets' or p.parent==source/'assets/home-refinement')):
   target=maintenance/'source-changes'/rel;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,target);snapshots.append(rel)
 report={'source':'integrated-v2','release':'github-pages-v2','copied':len(copied),'held':held,'sourceSnapshots':snapshots,'media':[]}
 for p in source.glob('source-media/web/*.mp4'):
