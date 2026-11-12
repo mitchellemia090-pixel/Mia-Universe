@@ -4,7 +4,7 @@
 body[data-page=home]>.header{pointer-events:none}
 body[data-page=home]>.header .brand{pointer-events:auto}
 html:has(body[data-page=home]){scrollbar-gutter:auto;scrollbar-width:none}
-.sky .cloud-floor{inset:auto 0 0;width:auto;background:url('assets/home-refinement/cloud-floor-layout.svg') center bottom/cover no-repeat}
+.sky .cloud-floor{inset:auto 0 0;width:auto;background:url('assets/home-refinement/cloud-floor-layout.webp') center bottom/cover no-repeat}
 .sky .cloud-main,.sky .cloud-rear img{width:104%}
 body[data-page=home] .sky{height:100svh;max-height:none;min-height:720px}
 /* Textures stay behind content and never filter the photographs. */

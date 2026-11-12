@@ -5,7 +5,7 @@ const miaToggle=document.querySelector('#mia-toggle');
 const miaLinks=document.querySelector('#mia-links');
 let closeTimer,keyboardNavigation=true,hoverWithin=false,suppressFocusOpen=false;
 document.querySelector('#nav').innerHTML=MIA_NAV.map(n=>`<a href="${n.href}">${n.label}</a>`).join('');
-miaLinks.innerHTML=MIA_NAV.map(n=>`<a href="${n.href}"><img src="assets/${n.id}.svg" alt=""><span>${n.label}</span></a>`).join('');
+miaLinks.innerHTML=MIA_NAV.map(n=>`<a href="${n.href}"><img loading="lazy" src="assets/${n.id}.webp" alt=""><span>${n.label}</span></a>`).join('');
 function setMiaOpen(open){clearTimeout(closeTimer);miaLinks.hidden=!open;miaToggle.setAttribute('aria-expanded',String(open));miaToggle.setAttribute('aria-label',open?'Close Mia navigation':'Open Mia navigation');miaComponent.classList.toggle('expanded',open)}
 function deferClose(){clearTimeout(closeTimer);closeTimer=setTimeout(()=>{if(!hoverWithin&&!(keyboardNavigation&&miaComponent.contains(document.activeElement)))setMiaOpen(false)},320)}
 miaToggle.addEventListener('click',()=>setMiaOpen(miaLinks.hidden));
@@ -18,17 +18,18 @@ document.addEventListener('keydown',e=>{if(['Tab','ArrowUp','ArrowDown','ArrowLe
 function updateMiaNavigation(page){setMiaOpen(false);miaComponent.hidden=page==='home';const current=page==='project'?'archive':page==='journal'?'personal':page;miaLinks.querySelectorAll('a').forEach(a=>{if(a.hash===(current==='home'?'#/':'#/'+current))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});}
 // Approved resting-cheek photograph. No colour, sharpening, erosion, perspective,
 // face reshaping, or direction-sheet substitution is applied to the character.
-function miaFigureMarkup(){return `<span class="mia-rest" data-mode="approved-static-original"><img class="mia-rest-photo" src="assets/home-refinement/approved-rest.svg" alt="" draggable="false" decoding="async"></span>`;}
+function miaFigureMarkup(){return `<span class="mia-rest" data-mode="approved-static-original"><img class="mia-rest-photo" src="assets/home-refinement/approved-rest.webp" alt="" draggable="false" decoding="async"></span>`;}
 const oldMini=miaToggle.querySelector('img');const mini=document.createElement('span');mini.className='mia-mini';mini.setAttribute('aria-hidden','true');mini.innerHTML=miaFigureMarkup();oldMini.replaceWith(mini);
 let disposeFollow=()=>{};
 function stopFollowing(){disposeFollow();disposeFollow=()=>{};}
 function layoutMiaArc(scene){
  const w=scene.clientWidth,h=scene.clientHeight,small=w<=600,medium=w<=1000;
- const width=small?66:medium?120:170;
- const radius=small?(w-width-24)/2:Math.min((w-width-48)/2,(h-210)/1.65);
- const cx=w/2,cy=radius+(small?215:160);
- scene.dataset.arcRadius=radius.toFixed(3);scene.dataset.arcCenter=`${cx},${cy}`;
- scene.querySelectorAll('.sticker').forEach((a,i)=>{const degrees=180-i*36,rad=degrees*Math.PI/180;a.style.setProperty('--anchor-x',`${cx+radius*Math.cos(rad)}px`);a.style.setProperty('--anchor-y',`${cy-radius*Math.sin(rad)}px`);a.dataset.angle=degrees;});
+ const width=small?76:medium?112:146;
+ const rx=Math.min((w-width-24)/2,w*.365);
+ const ry=small?145:Math.min(h*.46,430);
+ const cx=w/2,cy=small?300:h*.58;
+ scene.dataset.arcRadius=rx.toFixed(3);scene.dataset.arcCenter=`${cx},${cy}`;
+ scene.querySelectorAll('.sticker').forEach((a,i)=>{const degrees=180-i*36,rad=degrees*Math.PI/180;a.style.setProperty('--anchor-x',`${cx+rx*Math.cos(rad)}px`);a.style.setProperty('--anchor-y',`${cy-ry*Math.sin(rad)}px`);a.dataset.angle=degrees;});
 }
 // Only portrait size/position and cloud composition are calibrated here.
 // Navigation anchors, content and pointer-follow behaviour are unchanged.

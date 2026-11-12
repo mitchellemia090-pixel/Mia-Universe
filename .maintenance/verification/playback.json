@@ -1,0 +1,72 @@
+[
+  {
+    "file": "reading-zine.html",
+    "name": "zine-report",
+    "state": {
+      "src": "http://127.0.0.1:8782/Mia-Universe/source-media/web/zine-report.mp4",
+      "duration": 111.56,
+      "first": 1.176531,
+      "afterSeek": 10.988053,
+      "width": 1280,
+      "height": 720,
+      "frames": 315,
+      "paused": false
+    }
+  },
+  {
+    "file": "reading-barber.html",
+    "name": "barber",
+    "state": {
+      "src": "http://127.0.0.1:8782/Mia-Universe/source-media/web/barber.mp4",
+      "duration": 179.978005,
+      "first": 1.160011,
+      "afterSeek": 11.368134,
+      "width": 1281,
+      "height": 854,
+      "frames": 130,
+      "paused": false
+    }
+  },
+  {
+    "file": "reading-broadcast.html",
+    "name": "broadcast",
+    "state": {
+      "src": "http://127.0.0.1:8782/Mia-Universe/source-media/web/broadcast.mp4",
+      "duration": 278.756009,
+      "first": 1.169262,
+      "afterSeek": 11.308118,
+      "width": 1280,
+      "height": 720,
+      "frames": 247,
+      "paused": false
+    }
+  },
+  {
+    "file": "source-haidilao.html",
+    "name": "haidilao",
+    "state": {
+      "src": "http://127.0.0.1:8782/Mia-Universe/source-media/web/haidilao.mp4",
+      "duration": 488.938,
+      "first": 1.167066,
+      "afterSeek": 11.336537,
+      "width": 1280,
+      "height": 720,
+      "frames": 129,
+      "paused": false
+    }
+  },
+  {
+    "file": "Zine_Ideas_in_Motion.html",
+    "name": "zine-entry",
+    "state": {
+      "src": "http://127.0.0.1:8782/Mia-Universe/source-media/web/zine-report.mp4",
+      "duration": 111.56,
+      "first": 1.167971,
+      "afterSeek": 10.968165,
+      "width": 1280,
+      "height": 720,
+      "frames": 311,
+      "paused": false
+    }
+  }
+]

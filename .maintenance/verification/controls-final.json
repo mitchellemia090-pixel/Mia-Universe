@@ -1,0 +1,58 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "url": "http://127.0.0.1:8782/Mia-Universe/projects/Someone_Took_a_Screenshot.html?from=selected-work",
+    "notification": "Someone took a screenshot",
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "reader": {
+      "open": true,
+      "src": "blob:http://127.0.0.1:8782/c4e89982-f1b0-4bd5-b557-0e9eedf05ea0",
+      "frames": 1
+    }
+  },
+  {
+    "width": 375,
+    "height": 900,
+    "url": "http://127.0.0.1:8782/Mia-Universe/projects/Someone_Took_a_Screenshot.html?from=selected-work",
+    "notification": "Someone took a screenshot",
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "width": 375,
+    "reader": {
+      "open": true,
+      "src": "blob:http://127.0.0.1:8782/e50a4ff4-aaa7-4b44-9488-d3931d6f4655",
+      "frames": 1
+    }
+  },
+  {
+    "width": 812,
+    "height": 375,
+    "url": "http://127.0.0.1:8782/Mia-Universe/projects/Someone_Took_a_Screenshot.html?from=selected-work",
+    "notification": "Someone took a screenshot",
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "width": 812,
+    "reader": {
+      "open": true,
+      "src": "blob:http://127.0.0.1:8782/bb874aa9-fe24-45fc-9d64-034aaa2eb238",
+      "frames": 1
+    }
+  },
+  {
+    "page": "Read Together",
+    "decorationClip": {
+      "overflow": "hidden",
+      "pageWidth": 360,
+      "viewport": 375
+    }
+  }
+]

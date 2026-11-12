@@ -1,0 +1,7 @@
+import fs from 'node:fs';import {Browser,wait} from './browser-audit-lib.mjs';
+fs.mkdirSync('pages-release-review/fix-20261112',{recursive:true});const out='pages-release-review/fix-20261112/';const b=new Browser();await b.start();const results=[];
+try{for(const [name,url]of [['source','http://127.0.0.1:8768/integrated-v2/'],['release','http://127.0.0.1:8768/github-pages-v2/'],['online','https://mitchellemia090-pixel.github.io/Mia-Universe/']]){
+await b.size(1440);await b.go(url,12000);await b.shot(out+name+'-home-before.png');results.push({name,home:await b.ev(`({url:location.href,zoom:visualViewport.scale,images:[...document.images].map(i=>({src:i.currentSrc,w:i.naturalWidth})),requests:performance.getEntriesByType('resource').map(r=>({name:r.name,ms:r.duration,bytes:r.encodedBodySize,start:r.startTime}))})`)});
+if(name==='online')continue;
+for(const width of [1440,1000,850,375]){await b.size(width);await b.go(url+'projects/Someone_Took_a_Screenshot.html');results.push({name,width,detail:await b.ev(`({width:innerWidth,scroll:document.documentElement.scrollWidth,overflow:[...document.querySelectorAll('body *')].filter(e=>{const r=e.getBoundingClientRect();return r.width&& (r.right>innerWidth+1||r.left< -1)}).slice(0,30).map(e=>({tag:e.tagName,cls:e.className,width:e.getBoundingClientRect().width,right:e.getBoundingClientRect().right,grid:getComputedStyle(e).gridTemplateColumns}))})`)});await b.shot(out+name+'-detail-'+width+'-before.png')}
+}}finally{fs.writeFileSync(out+'before.json',JSON.stringify(results,null,2));b.stop()}

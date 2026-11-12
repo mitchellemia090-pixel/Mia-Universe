@@ -1,0 +1,216 @@
+{
+  "source": "integrated-v2",
+  "release": "github-pages-v2",
+  "copied": 473,
+  "held": [
+    {
+      "path": "source-originals/ai-short-videos.pdf",
+      "bytes": 2531571,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/ai-society.pdf",
+      "bytes": 545517,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/barbie.pdf",
+      "bytes": 12749408,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/bollywood.docx",
+      "bytes": 678898,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/breaking-the-trap.pdf",
+      "bytes": 644805,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/budgets.docx",
+      "bytes": 478148,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/ceremonie-course-version.pdf",
+      "bytes": 621300,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/commentary-1.docx",
+      "bytes": 18202,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/commentary-2.docx",
+      "bytes": 14378,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/commentary-3.docx",
+      "bytes": 14301,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/commentary-4.docx",
+      "bytes": 16745,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/copyright.docx",
+      "bytes": 9079393,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/data-mining-group.pdf",
+      "bytes": 4893465,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/digital-news.doc",
+      "bytes": 218868,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/fair.docx",
+      "bytes": 706535,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/governance.docx",
+      "bytes": 210507,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/governance.pptx",
+      "bytes": 215824377,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/haidilao.docx",
+      "bytes": 4282284,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/motion.docx",
+      "bytes": 14131,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/oscars-workbook.twbx",
+      "bytes": 321461,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/photography-analysis.docx",
+      "bytes": 6090207,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/photography-assignment1.pdf",
+      "bytes": 905502,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/photography-campus.docx",
+      "bytes": 13219,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/photography.pdf",
+      "bytes": 111470794,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/public-figures.pdf",
+      "bytes": 559933,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/romance-defence.pdf",
+      "bytes": 292617,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/romance-thesis.pdf",
+      "bytes": 801895,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/rumours.docx",
+      "bytes": 317447,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/screenshot-thesis.pdf",
+      "bytes": 2589281,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/self-method.docx",
+      "bytes": 17446,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    },
+    {
+      "path": "source-originals/social-marketing.pdf",
+      "bytes": 1377412,
+      "reason": "original document remains in local full edition; not part of this media repair"
+    }
+  ],
+  "sourceSnapshots": [
+    "app.js",
+    "index.html",
+    "layout-repair.css",
+    "navigation.js",
+    "reading-layout.css",
+    "universe.css",
+    "work-reader.js",
+    "assets/about.webp",
+    "assets/archive.webp",
+    "assets/contact.webp",
+    "assets/home.webp",
+    "assets/personal.webp",
+    "assets/work.webp",
+    "projects/When_a_City_Goes_Viral.html",
+    "projects/Zine_Ideas_in_Motion.html",
+    "works-content/barber.js",
+    "works-content/barber.json",
+    "works-content/broadcast.js",
+    "works-content/broadcast.json",
+    "works-content/haidilao.js",
+    "works-content/haidilao.json",
+    "works-content/zine.js",
+    "works-content/zine.json",
+    "assets/home-refinement/approved-rest.webp",
+    "assets/home-refinement/cloud-floor-layout.webp",
+    "assets/home-refinement/cloud-volume-proportions.webp"
+  ],
+  "media": [
+    {
+      "path": "source-media/web/barber.mp4",
+      "bytes": 31569495,
+      "sha256": "c780693285bcb464b757be2c64dd49b205793e6a9874166e2de4c9da76063f8f",
+      "copied": true
+    },
+    {
+      "path": "source-media/web/broadcast.mp4",
+      "bytes": 39515750,
+      "sha256": "2c21d2f249c3b69c42c5b36cb3ca7eea24a728374fe71d23e144bfc8ebe1dcf8",
+      "copied": true
+    },
+    {
+      "path": "source-media/web/haidilao.mp4",
+      "bytes": 78287268,
+      "sha256": "f733543676f9e992627469c9754d2bef0e15854d268edecf02d044305c5fc4e5",
+      "copied": true
+    },
+    {
+      "path": "source-media/web/zine-report.mp4",
+      "bytes": 19628886,
+      "sha256": "c5879dca3e0318406169a38db0b1f8eb3a7121b73762e6a39c70febe346d941f",
+      "copied": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "source-media/web/barber.mp4",
+    "source": true,
+    "release": true,
+    "tracked": true,
+    "bytes": 31569495,
+    "status": 206,
+    "range": "bytes 0-1023/31569495",
+    "readBytes": 1024
+  },
+  {
+    "path": "source-media/web/broadcast.mp4",
+    "source": true,
+    "release": true,
+    "tracked": true,
+    "bytes": 39515750,
+    "status": 206,
+    "range": "bytes 0-1023/39515750",
+    "readBytes": 1024
+  },
+  {
+    "path": "source-media/web/haidilao.mp4",
+    "source": true,
+    "release": true,
+    "tracked": true,
+    "bytes": 78287268,
+    "status": 206,
+    "range": "bytes 0-1023/78287268",
+    "readBytes": 1024
+  },
+  {
+    "path": "source-media/web/zine-report.mp4",
+    "source": true,
+    "release": true,
+    "tracked": true,
+    "bytes": 19628886,
+    "status": 206,
+    "range": "bytes 0-1023/19628886",
+    "readBytes": 1024
+  }
+]

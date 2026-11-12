@@ -88,3 +88,17 @@ html{scrollbar-gutter:stable}
 
 /* Rear cotton fills the photo cutout; foreground stays below the resting hands. */
 .cloud-rear img{transform:translate(-50%,calc(var(--front-cloud-drop,0px) - 72px))}
+
+/* Keep the navigation arc outside the approved portrait and flower. */
+.sky .sticker,.sky .sticker:nth-child(n){width:146px;height:154px}
+.sky .sticker img{width:126px;height:108px}
+.sky .sticker span{width:146px}
+@media(min-width:1001px){.sky .sticker-work span{width:180px;white-space:nowrap}}
+@media(max-width:1000px) and (min-width:601px){
+ .sky .sticker,.sky .sticker:nth-child(n){width:112px;height:132px}
+ .sky .sticker img{width:96px;height:82px}.sky .sticker span{width:112px}
+}
+@media(max-width:600px){
+ .sky .sticker,.sky .sticker:nth-child(n){width:76px;height:90px}
+ .sky .sticker img{width:60px;height:50px}.sky .sticker span{width:76px}
+}

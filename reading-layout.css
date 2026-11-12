@@ -32,6 +32,25 @@ body :is(select,input[type=text],input[type=search],input[type=number],textarea)
 body :is(.cloud-heading h4 span,.topic-name span,.growth-ticks span,.hero-link span,.period-controls>span){font-size:15px!important;line-height:1.6}
 body :is(.footer,footer.wrap) a{display:inline-flex;align-items:center;min-height:44px;padding-block:6px;font-size:16px}
 .reading-diagram-scroll{max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-inline:contain}
+/* Grid items must shrink to their tracks; longer titles and controls wrap. */
+body .hero.wrap{padding-inline:clamp(20px,3vw,48px)}
+body :is(.hero-grid,.finding-grid,.method-grid,.lens-content,.concept,.readcards) > *{min-width:0;overflow-wrap:anywhere}
+body .hero-grid{grid-template-columns:minmax(0,1.16fr) minmax(0,1fr)}
+body .navin{min-width:0;flex-wrap:wrap;gap:8px 24px;padding-block:12px}
+body .nav :is(.links,.navlinks){min-width:0;max-width:100%;flex-wrap:wrap;white-space:normal;overflow:visible;gap:4px 20px}
+body .nav :is(.links,.navlinks) a{display:inline-flex;align-items:center}
+body :is(.capture,.read-actions,.lens-toolbar,.quote-cite,.dialogbar){max-width:100%;flex-wrap:wrap;overflow-wrap:anywhere}
+body .capture{white-space:normal}
+body :is(.chat-frame,.evidence,.methodbox,.readcard){min-width:0}
+@media(max-width:1000px){
+ body .hero-grid,body .finding-grid,body .method-grid,body .lens-content{grid-template-columns:minmax(0,1fr)}
+ body .nav{position:relative}
+}
+@media(max-width:600px){
+ body :is(.stats,.process,.concept,.readcards){grid-template-columns:minmax(0,1fr)}
+ body :is(.meta,.tabs,.footer){flex-wrap:wrap}
+ body .hero h1{font-size:clamp(40px,11vw,66px);overflow-wrap:anywhere}
+}
 /* Reported features: a legible directory, a measured text column, and wider photographs. */
 body:is(.page-woman,.page-piaopiao,.page-trap) .article-layout{width:90%;max-width:1760px;margin-inline:auto;padding:0;grid-template-columns:clamp(220px,17vw,300px) minmax(0,1fr);gap:clamp(36px,4vw,76px)}
 body:is(.page-woman,.page-piaopiao,.page-trap) .sidebar{font:16px/1.65 Arial,sans-serif;padding-top:40px}
