@@ -90,7 +90,7 @@ function renderComments(){
  const city=$('#cityFilter').value,topic=$('#topicFilter').value,source=$('#sourceFilter').value,query=$('#searchFilter').value.trim().toLowerCase();
  const searchTerms=T.terms(query);
  filtered=D.records.filter(r=>(city==='all'||r.city===city)&&(source==='all'||r.source===source)&&(topic==='all'||(topic==='unmatched'?!r.topics.length:r.topics.includes(topic)))&&(!query||(cloudSelection&&query===cloudSelection.query?cloudSelection.ids.has(r.id):searchTerms.some(term=>r.text.toLowerCase().includes(term)))));
- const cloudNote=$('#cloudSelectionNote');cloudNote.hidden=!cloudSelection;cloudNote.textContent=cloudSelection?L(`词云精确匹配：「${cloudSelection.word}」；下方结果可继续按主题与视频筛选。手动修改关键词可切换为全文搜索。`,`Exact word-cloud matches: ${tr(cloudSelection.word)}. You can further filter by topic and video. Edit the search text to switch to full-text search.`):'';
+ const cloudNote=$('#cloudSelectionNote');cloudNote.hidden=!cloudSelection;cloudNote.textContent=cloudSelection?.imported?L('原评论库中的原文示例（与新词云统计口径不同）。','Examples from the original comment library (a different sample from the new word clouds).'):cloudSelection?L(`词云精确匹配：「${cloudSelection.word}」；下方结果可继续按主题与视频筛选。手动修改关键词可切换为全文搜索。`,`Exact word-cloud matches: ${tr(cloudSelection.word)}. You can further filter by topic and video. Edit the search text to switch to full-text search.`):'';
  const size=6,pages=Math.max(1,Math.ceil(filtered.length/size));state.page=Math.min(state.page,pages);const from=(state.page-1)*size,records=filtered.slice(from,from+size);
  $('#resultsCount').textContent=L(`找到 ${num(filtered.length)} 条评论${filtered.length?` · 当前 ${from+1}–${from+records.length}`:''}`,`${num(filtered.length)} comments${filtered.length?` · showing ${from+1}–${from+records.length}`:''}`);
  $('#commentList').innerHTML=records.length?records.map(r=>{const gloss=T.gloss(r,D.topics);return `<article class="comment-card" data-city="${esc(r.city)}"><div class="comment-meta"><span class="comment-city">${esc(tr(r.city))} / ${r.source}</span><span>${r.date||L('原表未记录日期','Date not recorded in the source')}</span></div>${T.en()?`<div class="comment-gloss" lang="en" data-no-translate><strong>${esc(gloss.label)}</strong><p>${esc(gloss.text)}</p></div>`:''}<details class="comment-original"><summary>${L('阅读中文原文','Read original in Chinese')}</summary><blockquote lang="zh-CN" data-no-translate data-source-original>${highlight(r.text)}</blockquote></details><p class="comment-source">${esc(tr(r.sourceTitle))}</p><div class="comment-tags">${r.topics.length?r.topics.map(id=>`<span>${esc(tr(topicById[id].label))}</span>`).join(''):`<span>${L('未命中词典','No dictionary topic matched')}</span>`}</div></article>`}).join(''):`<p class="empty-results">${L('没有符合这些条件的评论。可以更换关键词或清除筛选。','No comments match these filters. Try another keyword or clear the filters.')}</p>`;
@@ -113,20 +113,29 @@ function openCloudWord(city,item){
  $('#explorer').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
  $('#searchFilter').focus({preventScroll:true});
 }
-let cloudGeneration=0;
-async function renderClouds(){
- const generation=++cloudGeneration;window.MIA_CLOUD_READY=false;delete window.MIA_CLOUD_ERROR;
- const grid=$('#cloudGrid');grid.classList.toggle('single',state.cloudcity!=='both');
- $$('[data-cloud-card]').forEach(card=>card.hidden=state.cloudcity!=='both'&&card.dataset.cloudCard!==state.cloudcity);
- await document.fonts.ready;if(generation!==cloudGeneration)return;
- const visible=cities.filter(c=>state.cloudcity==='both'||state.cloudcity===c);
- for(const city of visible)document.getElementById(cloudHosts[city]).classList.add('mia-shaped-cloud');
- const width=Math.round(Math.min(600,...visible.map(city=>document.getElementById(cloudHosts[city]).clientWidth)));
- try{
-  const chart=window.MIA_TOURISM_CLOUDS.layout(D.wordClouds,width,T);
-  for(const city of visible)window.MIA_TOURISM_CLOUDS.render(document.getElementById(cloudHosts[city]),city,chart,T,openCloudWord,document.getElementById(cloudHosts[city]+'Note'),D.totals[city]);
-  window.MIA_CLOUD_READY={language:T.en()?'en':'zh',width,height:chart.h,factor:chart.factor,words:60};
- }catch(error){window.MIA_CLOUD_ERROR=error.message;throw error}
+function renderClouds(){
+ window.MIA_CLOUD_READY=false;
+ $('#cloudGrid').classList.toggle('single',state.cloudcity!=='both');
+ const staging=document.createElement('div');
+ window.MiaCityWordclouds.mount(staging,{language:T.en()?'en':'zh',onWord:({city,keyword})=>{
+  const name=city==='harbin'?'哈尔滨':'天水';
+  const indices=D.records.flatMap((r,i)=>r.city===name&&r.text.includes(keyword)?[i]:[]);
+  openCloudWord(name,{word:keyword,indices});
+  cloudSelection.imported=true;renderComments();
+ }});
+ for(const [key,city] of [['harbin','哈尔滨'],['tianshui','天水']]){
+  const host=document.getElementById(cloudHosts[city]),card=host.closest('[data-cloud-card]');
+  card.hidden=state.cloudcity!=='both'&&state.cloudcity!==city;
+  const source=staging.querySelector(`[data-city="${key}"]`);
+  host.classList.remove('mia-shaped-cloud');host.classList.add('mia-imported-cloud');
+  host.replaceChildren(source.querySelector('svg'));
+  const status=source.querySelector('.mia-cloud-status');
+  status.id=cloudHosts[city]+'Note';status.classList.add('cloud-readout');
+  document.getElementById(status.id).replaceWith(status);
+  status.textContent=L('点击词语或按回车查看统计与原评论库中的示例。','Click a word or press Enter for statistics and examples from the original comment library.');
+  card.querySelector('.cloud-heading p').textContent=source.querySelector('header p').textContent;
+ }
+ window.MIA_CLOUD_READY={language:T.en()?'en':'zh',source:'Wordcloud_Integration'};
 }
 function renderAnnual(){
  $('#annualCards').innerHTML=D.annualFollowup.map(r=>{const trips=state.annual==='trips',growth=r[trips?'tripsGrowth':'spendingGrowth'];return `<article class="annual-card"><h4>${esc(tr(r.city))} <a href="#source-${r.source}" class="ref">[${r.source.slice(1)}]</a></h4><div class="annual-total">${fmt(trips?r.trips:r.spending,trips?0:1)}<span>${trips?L('万人次','10,000 visitor trips'):L('亿元','CNY 100 million')}</span></div><p>${L('2024 全年','Full year 2024')} · ${trips?L('接待游客','Visitor trips'):esc(tr(r.spendingLabel))}</p><div class="growth-head"><span>${L('较 2023 全年','Compared with full year 2023')}</span><strong>+${fmt(growth,1)}%</strong></div><div class="growth-track" role="img" aria-label="${esc(L(`${r.city}同比增长${growth}%，共同尺度0到40%`,`${tr(r.city)}: ${growth}% year-on-year growth; shared scale 0–40%`))}"><i style="width:${growth/40*100}%"></i></div><div class="growth-ticks" aria-hidden="true"><span>0%</span><span>20%</span><span>40%</span></div></article>`;}).join('');
@@ -160,7 +169,7 @@ function renderAll(){
  renderMethods();renderRecovery();renderQuarter();renderPeriod();renderTopics();renderComments();renderAnnual();renderWordMethods();renderClouds();T.localizeAttributes();
  window.MIA_TOURISM_HERO?.layout();
  let cloudGloss=$('#cloudGlossNote');if(!cloudGloss){cloudGloss=document.createElement('p');cloudGloss.id='cloudGlossNote';cloudGloss.className='source-note';$('#cloudGrid').after(cloudGloss)}
- cloudGloss.textContent=L('文字分别组成哈尔滨雪人与天水宽口麻辣烫碗；两城使用相同的含词评论占比平方根字号尺度。英文标签为中文关键词的释义，统计与点击匹配仍使用未改动的原始中文索引。','Words form a snowman for Harbin and a wide malatang bowl for Tianshui. Both cities use the same square-root scale of the share of comments containing a word. Malatang is a spicy hot-pot dish; “little potatoes” is a nickname for southern visitors. Counts and exact matches use the unchanged Chinese tokens.');
+ cloudGloss.textContent=L('新词云基于哈尔滨 837 条、天水 2,780 条去重评论，按字面子串计数，每条评论每词最多计一次。英文为中文关键词释义；小字重复用于填充轮廓。点击后显示新统计，下方仅提供原评论库中的原文示例，口径不同，示例数量不等于词云计数。下方词表与分词说明保留原评论库口径。','These word clouds use 837 deduplicated Harbin comments and 2,780 Tianshui comments, with literal substring matching counted once per word per comment. English labels are glosses; some small words repeat to fill the shapes. Click for the new statistics and original-library examples below. The samples differ, so example totals do not equal cloud counts. The table and tokenisation notes below describe the original library.');
  let searchHelp=$('#searchLanguageNote');if(!searchHelp){searchHelp=document.createElement('p');searchHelp.id='searchLanguageNote';searchHelp.className='source-note';$('#explorer .filters').after(searchHelp)}
  searchHelp.textContent=L('关键词可输入中文，也可输入对应的英文释义。下载的数据保留中文原始评论；英文摘要或关键词语境不用于推断情感或立场。','You can search with Chinese keywords or mapped English glosses. Downloads retain the Chinese source comments. Reading summaries and keyword context do not classify sentiment or stance.');
 }
