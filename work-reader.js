@@ -19,5 +19,6 @@ try{
  main.querySelectorAll('video').forEach(v=>{v.controls=true;v.playsInline=true;v.preload='none'});
  main.addEventListener('click',event=>{const link=event.target.closest('[data-video-seek]');if(!link)return;event.preventDefault();const video=main.querySelector('video');if(video){video.currentTime=Number(link.dataset.videoSeek);video.scrollIntoView({block:'center',behavior:'smooth'})}});
  window.MIA_WORK_READY={id,language,paragraphs:main.querySelectorAll('.work-body p').length,characters:main.querySelector('.work-body').textContent.length,complete:!!edition.complete};
+ dispatchEvent(new CustomEvent('mia-puzzle-work-ready', {detail: id}));
 }catch(error){main.className='work-shell';main.innerHTML='<p class="work-error" role="alert">'+escape(error.message)+'</p>';window.MIA_WORK_ERROR=error.message;}
 })();

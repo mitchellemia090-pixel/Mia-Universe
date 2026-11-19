@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "images": [
+    {
+      "id": "01-sleeping-cats",
+      "src": "assets/puzzles/01-sleeping-cats.png",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1.0,
+      "alt": {
+        "zh": "睡在店门口的两只猫，毛毡风格重绘",
+        "en": "Two cats sleeping beside a blue shop door, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "02-white-flowers",
+      "src": "assets/puzzles/02-white-flowers.png",
+      "width": 1448,
+      "height": 1086,
+      "aspectRatio": 1.3333333333333333,
+      "alt": {
+        "zh": "蓝天下的白花，毛毡风格重绘",
+        "en": "White trumpet flowers against a blue sky, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "03-marina",
+      "src": "assets/puzzles/03-marina.png",
+      "width": 1448,
+      "height": 1086,
+      "aspectRatio": 1.3333333333333333,
+      "alt": {
+        "zh": "帆船港口，毛毡风格重绘",
+        "en": "Sailboats in a marina, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "04-white-village",
+      "src": "assets/puzzles/04-white-village.png",
+      "width": 1672,
+      "height": 941,
+      "aspectRatio": 1.7768331562167907,
+      "alt": {
+        "zh": "白色山城，毛毡风格重绘",
+        "en": "White hillside village, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "05-open-arms-statue",
+      "src": "assets/puzzles/05-open-arms-statue.png",
+      "width": 1448,
+      "height": 1086,
+      "aspectRatio": 1.3333333333333333,
+      "alt": {
+        "zh": "张开双臂的雕像，毛毡风格重绘",
+        "en": "Crowned statue with outstretched arms, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "06-market-alley",
+      "src": "assets/puzzles/06-market-alley.png",
+      "width": 1448,
+      "height": 1086,
+      "aspectRatio": 1.3333333333333333,
+      "alt": {
+        "zh": "市集小巷，毛毡风格重绘",
+        "en": "A sunlit market alley, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "07-fire-performance",
+      "src": "assets/puzzles/07-fire-performance.png",
+      "width": 1672,
+      "height": 941,
+      "aspectRatio": 1.7768331562167907,
+      "alt": {
+        "zh": "夜间火花表演，毛毡风格重绘",
+        "en": "Golden sparks at a night performance, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "08-glass-arcade",
+      "src": "assets/puzzles/08-glass-arcade.png",
+      "width": 1086,
+      "height": 1448,
+      "aspectRatio": 0.75,
+      "alt": {
+        "zh": "玻璃穹顶长廊，毛毡风格重绘",
+        "en": "Ornate arcade beneath a glass roof, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "09-snowman",
+      "src": "assets/puzzles/09-snowman.png",
+      "width": 941,
+      "height": 1672,
+      "aspectRatio": 0.562799043062201,
+      "alt": {
+        "zh": "与雪人合影，毛毡风格重绘",
+        "en": "A woman beside a tall snowman, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "10-cable-cars",
+      "src": "assets/puzzles/10-cable-cars.png",
+      "width": 1086,
+      "height": 1448,
+      "aspectRatio": 0.75,
+      "alt": {
+        "zh": "山间红黄缆车，毛毡风格重绘",
+        "en": "Red and yellow cable cars above mountains, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "11-snow-sculptures",
+      "src": "assets/puzzles/11-snow-sculptures.png",
+      "width": 1672,
+      "height": 941,
+      "aspectRatio": 1.7768331562167907,
+      "alt": {
+        "zh": "雪雕与倒影，毛毡风格重绘",
+        "en": "Snow sculptures reflected in still water, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "12-stone-buddhas",
+      "src": "assets/puzzles/12-stone-buddhas.png",
+      "width": 1448,
+      "height": 1086,
+      "aspectRatio": 1.3333333333333333,
+      "alt": {
+        "zh": "石窟造像，毛毡风格重绘",
+        "en": "Buddhist sculptures in a stone grotto, reimagined in wool felt"
+      }
+    },
+    {
+      "id": "13-colored-relief",
+      "src": "assets/puzzles/13-colored-relief.png",
+      "width": 1086,
+      "height": 1448,
+      "aspectRatio": 0.75,
+      "alt": {
+        "zh": "彩色浮雕，毛毡风格重绘",
+        "en": "An ornate polychrome religious relief, reimagined in wool felt"
+      }
+    }
+  ]
+}

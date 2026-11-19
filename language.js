@@ -55,3 +55,8 @@ function start(){if(location.pathname.includes('/projects/')&&!originalView){con
 addEventListener('storage',e=>{if(e.key==='mia-language'&&e.newValue!==lang&&!originalView)location.reload()});
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 })();
+
+// Load collection state only on pages that host the universe or an eligible work.
+if (document.querySelector('#mia-navigation') || document.body.dataset.workId || document.body.dataset.puzzleWork) {
+  import(new URL('puzzle.js', document.currentScript.src)).catch(console.error);
+}
